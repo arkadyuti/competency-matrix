@@ -1,0 +1,60 @@
+ {
+	"primarySkills" : {
+		"skill" : {
+
+			"HTML" : {
+				"subSkill" : ["LOCAL STORAGE","SESSION STORAGE","FILE API","COOKIE"]
+			},
+
+			"CSS3" : {
+				"subSkill" : ["LOCAL STORAGE","SESSION STORAGE","FILE API","COOKIE"]
+			},
+
+			"JAVASCRIPT" : {
+				"subSkill" : ["LOCAL STORAGE","SESSION STORAGE","FILE API","COOKIE"]
+			},
+
+			"XML" : {
+				"subSkill" : ["LOCAL STORAGE","SESSION STORAGE","FILE API","COOKIE"]
+			}
+		 }
+	},
+
+	"secondarySkills" : {
+		"skill" : {
+			"SOFTWARE DESIGNING" : {
+				"subSkill" : ["LOCAL STORAGE","SESSION STORAGE","FILE API"]
+			},
+
+			"FLASH ANIMATION" : {
+				"subSkill" : ["LOCAL STORAGE","SESSION STORAGE","FILE API"]
+			},
+
+			"GOOGLE APIS" : {
+				"subSkill" : ["LOCAL STORAGE","SESSION STORAGE","FILE API"]
+			},
+			"CROSS BROWSER ISSUES" : {
+				"subSkill" : ["LOCAL STORAGE","SESSION STORAGE","FILE API"]
+			},
+
+			"WEATHER WIDGETS" : {
+				"subSkill" : ["LOCAL STORAGE","SESSION STORAGE","FILE API"]
+			},
+			"FRAMEWORK" : {
+				"subSkill" : ["LOCAL STORAGE","SESSION STORAGE","FILE API"]
+			},
+
+			"IOS INTEGRATION" : {
+				"subSkill" : ["LOCAL STORAGE","SESSION STORAGE","FILE API"]
+			},
+			"ANDROID INTEGRATION" : {
+				"subSkill" : ["LOCAL STORAGE","SESSION STORAGE","FILE API"]
+			},
+
+			"DOCUMENTATION" : {
+				"subSkill" : ["LOCAL STORAGE","SESSION STORAGE","FILE API"]
+			}
+		}
+	}
+}
+

@@ -1,0 +1,4667 @@
+{
+    "112101": {
+        "image": "../img/supervisee/ruhi.png",
+        "name": "Ruhi Chandra",
+        "oracle_id": 112101,
+        "role": "Junior Associate",
+        "primaryskills": [
+            {
+                "skillName": "HTML5",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "CSS3",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "JavaScript",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "XML",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 4
+                    }
+                ],
+                "rating": 2
+            }
+        ],
+        "secondaryskills": [
+            {
+                "skillName": "Framework",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Software Designing",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Flash Animation",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Google APIs",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Documentation",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Android",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Ios",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            }
+        ]
+    },
+    "112102": {
+        "name": "Govind Hallikar",
+        "oracle_id": 112102,
+        "role": "Junior Associate",
+        "image": "../img/supervisee/govind.jpg",
+        "primary skills": [
+            {
+                "skillName": "HTML5",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "CSS3",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "JavaScript",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "XML",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 4
+                    }
+                ],
+                "rating": 2
+            }
+        ],
+        "secondary skills": [
+            {
+                "skillName": "Framework",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Software Designing",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Flash Animation",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Google APIs",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Documentation",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Android",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Ios",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            }
+        ]
+    },
+    "112103": {
+        "name": "Karan Sharma",
+        "oracle_id": 112103,
+        "role": "Junior Associate",
+        "image": "../img/supervisee/karan.jpg",
+        "primary skills": [
+            {
+                "skillName": "HTML5",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "CSS3",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "JavaScript",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "XML",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 4
+                    }
+                ],
+                "rating": 2
+            }
+        ],
+        "secondary skills": [
+            {
+                "skillName": "Framework",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Software Designing",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Flash Animation",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Google APIs",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Documentation",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Android",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Ios",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            }
+        ]
+    },
+    "112104": {
+        "name": "Yogesh Mehta",
+        "oracle_id": 112104,
+        "role": "Junior Associate",
+        "image": "../img/supervisee/yogesh.jpg",
+        "primary skills": [
+            {
+                "skillName": "HTML5",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "CSS3",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "JavaScript",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "XML",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 4
+                    }
+                ],
+                "rating": 2
+            }
+        ],
+        "secondary skills": [
+            {
+                "skillName": "Framework",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Software Designing",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Flash Animation",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Google APIs",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Documentation",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Android",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Ios",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            }
+        ]
+    },
+    "112110": {
+        "name": "Dinesh Singh",
+        "oracle_id": 112110,
+        "role": "Junior Associate",
+        "image": "../img/supervisee/dinesh.jpg",
+        "primary skills": [
+            {
+                "skillName": "HTML5",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "CSS3",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "JavaScript",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "XML",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 4
+                    }
+                ],
+                "rating": 2
+            }
+        ],
+        "secondary skills": [
+            {
+                "skillName": "Framework",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Software Designing",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Flash Animation",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Google APIs",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Documentation",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Android",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Ios",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            }
+        ]
+    },
+    "112111": {
+        "name": "Vishaka Nagarajan",
+        "oracle_id": 112111,
+        "role": "Junior Associate",
+        "image": "../img/supervisee/vishaka.jpg",
+        "primary skills": [
+            {
+                "skillName": "HTML5",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "CSS3",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "JavaScript",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "XML",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 4
+                    }
+                ],
+                "rating": 2
+            }
+        ],
+        "secondary skills": [
+            {
+                "skillName": "Framework",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Software Designing",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Flash Animation",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Google APIs",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Documentation",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Android",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Ios",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            }
+        ]
+    },
+    "112112": {
+        "name": "Sai Ram Chappidi",
+        "oracle_id": 112112,
+        "role": "Junior Associate",
+        "image": "../img/supervisee/sairam.jpg",
+        "primary skills": [
+            {
+                "skillName": "HTML5",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "CSS3",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "JavaScript",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "XML",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 4
+                    }
+                ],
+                "rating": 2
+            }
+        ],
+        "secondary skills": [
+            {
+                "skillName": "Framework",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Software Designing",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Flash Animation",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Google APIs",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Documentation",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Android",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Ios",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            }
+        ]
+    },
+    "112113": {
+        "name": "Vimal Singh",
+        "oracle_id": 112113,
+        "role": "Junior Associate",
+        "image": "../img/supervisee/vimal.jpg",
+        "primary skills": [
+            {
+                "skillName": "HTML5",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "CSS3",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "JavaScript",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "XML",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 4
+                    }
+                ],
+                "rating": 2
+            }
+        ],
+        "secondary skills": [
+            {
+                "skillName": "Framework",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Software Designing",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Flash Animation",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Google APIs",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Documentation",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Android",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Ios",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            }
+        ]
+    },
+    "112114": {
+        "name": "Nishchita H V Prasad",
+        "oracle_id": 112114,
+        "role": "Associate",
+        "image": "../img/supervisee/nishchita.jpg",
+        "primary skills": [
+            {
+                "skillName": "HTML5",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "CSS3",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "JavaScript",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "XML",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 4
+                    }
+                ],
+                "rating": 2
+            }
+        ],
+        "secondary skills": [
+            {
+                "skillName": "Framework",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Software Designing",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Flash Animation",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Google APIs",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Documentation",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Android",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Ios",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            }
+        ]
+    },
+    "112115": {
+        "name": "Vignesh Bhagavath",
+        "oracle_id": 112115,
+        "role": "Junior Associate",
+        "image": "../img/supervisee/vignesh.jpg",
+        "primary skills": [
+            {
+                "skillName": "HTML5",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "CSS3",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "JavaScript",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "XML",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 4
+                    }
+                ],
+                "rating": 2
+            }
+        ],
+        "secondary skills": [
+            {
+                "skillName": "Framework",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Software Designing",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Flash Animation",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Google APIs",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Documentation",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Android",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Ios",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            }
+        ]
+    },
+    "112116": {
+        "name": "Megha Vijay",
+        "oracle_id": 112116,
+        "role": "Junior Associate",
+        "image": "../img/supervisee/megha.jpg",
+        "primary skills": [
+            {
+                "skillName": "HTML5",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "CSS3",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "JavaScript",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "XML",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 4
+                    }
+                ],
+                "rating": 2
+            }
+        ],
+        "secondary skills": [
+            {
+                "skillName": "Framework",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Software Designing",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Flash Animation",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Google APIs",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Documentation",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Android",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Ios",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            }
+        ]
+    },
+    "112117": {
+        "name": "Avinash Murugesh",
+        "oracle_id": 112117,
+        "role": "Junior Associate",
+        "image": "../img/supervisee/avinash.jpg",
+        "primary skills": [
+            {
+                "skillName": "HTML5",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "CSS3",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "JavaScript",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "XML",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 4
+                    }
+                ],
+                "rating": 2
+            }
+        ],
+        "secondary skills": [
+            {
+                "skillName": "Framework",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Software Designing",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Flash Animation",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Google APIs",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Documentation",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Android",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Ios",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            }
+        ]
+    },
+    "112118": {
+        "name": "Ayan Dalal",
+        "oracle_id": 112118,
+        "role": "Junior Associate",
+        "image": "../img/supervisee/ayan.jpg",
+        "primary skills": [
+            {
+                "skillName": "HTML5",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "CSS3",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "JavaScript",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "XML",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 4
+                    }
+                ],
+                "rating": 2
+            }
+        ],
+        "secondary skills": [
+            {
+                "skillName": "Framework",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Software Designing",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Flash Animation",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Google APIs",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Documentation",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Android",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Ios",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            }
+        ]
+    },
+    "112119": {
+        "name": "Apoorv Agrawal",
+        "oracle_id": 112119,
+        "role": "Junior Associate",
+        "image": "../img/supervisee/apoorv.jpg",
+        "primary skills": [
+            {
+                "skillName": "HTML5",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "CSS3",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "JavaScript",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "XML",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 4
+                    }
+                ],
+                "rating": 2
+            }
+        ],
+        "secondary skills": [
+            {
+                "skillName": "Framework",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Software Designing",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Flash Animation",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Google APIs",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Documentation",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Android",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Ios",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            }
+        ]
+    },
+    "112120": {
+        "name": "Shruthi Somanath",
+        "oracle_id": 112120,
+        "role": "Junior Associate",
+        "image": "../img/supervisee/vishakha.jpg",
+        "primary skills": [
+            {
+                "skillName": "HTML5",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "CSS3",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "JavaScript",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "XML",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 4
+                    }
+                ],
+                "rating": 2
+            }
+        ],
+        "secondary skills": [
+            {
+                "skillName": "Framework",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Software Designing",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Flash Animation",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Google APIs",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Documentation",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Android",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Ios",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            }
+        ]
+    },
+    "112121": {
+        "name": "Chetana Kisku",
+        "oracle_id": 112121,
+        "role": "Junior Associate",
+        "image": "../img/supervisee/nishchita.jpg",
+        "primary skills": [
+            {
+                "skillName": "HTML5",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "CSS3",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "JavaScript",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "XML",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 4
+                    }
+                ],
+                "rating": 2
+            }
+        ],
+        "secondary skills": [
+            {
+                "skillName": "Framework",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Software Designing",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Flash Animation",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Google APIs",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Documentation",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Android",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Ios",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            }
+        ]
+    },
+    "112122": {
+        "name": "Arka Sarkar",
+        "oracle_id": 112122,
+        "role": "Junior Associate",
+        "image": "../img/supervisee/vimal.jpg",
+        "primary skills": [
+            {
+                "skillName": "HTML5",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "CSS3",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "JavaScript",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "XML",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 4
+                    }
+                ],
+                "rating": 2
+            }
+        ],
+        "secondary skills": [
+            {
+                "skillName": "Framework",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Software Designing",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Flash Animation",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Google APIs",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Documentation",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Android",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Ios",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            }
+        ]
+    },
+    "112123": {
+        "name": "Shubh Kundu",
+        "oracle_id": 112123,
+        "role": "Junior Associate",
+        "image": "../img/supervisee/ayan.jpg",
+        "primary skills": [
+            {
+                "skillName": "HTML5",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "CSS3",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "JavaScript",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "XML",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 4
+                    }
+                ],
+                "rating": 2
+            }
+        ],
+        "secondary skills": [
+            {
+                "skillName": "Framework",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Software Designing",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Flash Animation",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Google APIs",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Documentation",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Android",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Ios",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            }
+        ]
+    },
+    "112130": {
+        "name": "Nilesh Sinha",
+        "oracle_id": 112130,
+        "role": "Junior Associate",
+        "image": "../img/supervisee/ayan.jpg",
+        "primary skills": [
+            {
+                "skillName": "HTML5",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "CSS3",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "JavaScript",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "XML",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 4
+                    }
+                ],
+                "rating": 2
+            }
+        ],
+        "secondary skills": [
+            {
+                "skillName": "Framework",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Software Designing",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Flash Animation",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Google APIs",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Documentation",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Android",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Ios",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            }
+        ]
+    },
+    "112131": {
+        "name": "Saloni Luhadia",
+        "oracle_id": 112131,
+        "role": "Junior Associate",
+        "image": "../img/supervisee/vishakha.jpg",
+        "primary skills": [
+            {
+                "skillName": "HTML5",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "CSS3",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "JavaScript",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "XML",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 4
+                    }
+                ],
+                "rating": 2
+            }
+        ],
+        "secondary skills": [
+            {
+                "skillName": "Framework",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Software Designing",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Flash Animation",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Google APIs",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Documentation",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Android",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Ios",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            }
+        ]
+    },
+    "112132": {
+        "name": "Keerthi Mohan",
+        "oracle_id": 112132,
+        "role": "Junior Associate",
+        "image": "../img/supervisee/nishchita.jpg",
+        "primary skills": [
+            {
+                "skillName": "HTML5",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "CSS3",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "JavaScript",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "XML",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 4
+                    }
+                ],
+                "rating": 2
+            }
+        ],
+        "secondary skills": [
+            {
+                "skillName": "Framework",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Software Designing",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Flash Animation",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Google APIs",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Documentation",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Android",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Ios",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            }
+        ]
+    },
+    "112140": {
+        "name": "Abhay Singh",
+        "oracle_id": 112140,
+        "role": "Junior Associate",
+        "image": "../img/supervisee/vimal.jpg",
+        "primary skills": [
+            {
+                "skillName": "HTML5",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "CSS3",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "JavaScript",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "XML",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 4
+                    }
+                ],
+                "rating": 2
+            }
+        ],
+        "secondary skills": [
+            {
+                "skillName": "Framework",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Software Designing",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Flash Animation",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Google APIs",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Documentation",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Android",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Ios",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            }
+        ]
+    },
+    "112141": {
+        "name": "Prakash",
+        "oracle_id": 112141,
+        "role": "Junior Associate",
+        "image": "../img/supervisee/ayan.jpg",
+        "primary skills": [
+            {
+                "skillName": "HTML5",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "CSS3",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "JavaScript",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "XML",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 4
+                    }
+                ],
+                "rating": 2
+            }
+        ],
+        "secondary skills": [
+            {
+                "skillName": "Framework",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Software Designing",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Flash Animation",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Google APIs",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Documentation",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Android",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Ios",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            }
+        ]
+    },
+    "112142": {
+        "name": "Pavan Gangireddy",
+        "oracle_id": 112142,
+        "role": "Junior Associate",
+        "image": "../img/supervisee/apoorv.jpg",
+        "primary skills": [
+            {
+                "skillName": "HTML5",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "CSS3",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "JavaScript",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 2
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "XML",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 4
+                    }
+                ],
+                "rating": 2
+            }
+        ],
+        "secondary skills": [
+            {
+                "skillName": "Framework",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Software Designing",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Flash Animation",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 5
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "File API",
+                        "rating": 1
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Google APIs",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 5
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Documentation",
+                "level": "Intermediate",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 4
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Android",
+                "level": "Expert",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            },
+            {
+                "skillName": "Ios",
+                "level": "Beginner",
+                "subSkill": [
+                    {
+                        "subSkillName": "Local Storage",
+                        "rating": 3
+                    },
+                    {
+                        "subSkillName": "Session Storage",
+                        "rating": 3
+                    }
+                ],
+                "rating": 2
+            }
+        ]
+    },
+    "122110": {
+        "username": "Sreeram Dalli",
+        "email_id": "sreeram@sapient.com",
+        "oracle_id": "122110",
+        "address": "#122 1st cross, pm street, 560098",
+        "profile_photo": "../img/supervisor/sreeram.jpg",
+        "designation": "Senior Manager",
+        "supervisee_list": [
+            112101,
+            112102,
+            112103,
+            112104,
+            112110,
+            112111,
+            112112,
+            112113,
+            112114,
+            112115,
+            112116,
+            112117,
+            112118,
+            112119
+        ]
+    },
+    "122111": {
+        "username": "Richa Verma",
+        "email_id": "richaverma@sapient.com",
+        "oracle_id": 122111,
+        "address": "#123 2nd cross, pm street, 560099",
+        "designation": "Senior Manager",
+        "profile_photo": "../img/supervisor/richa.jpg",
+        "supervisee_list": [
+            112120,
+            112121,
+            112122
+        ]
+    },
+    "122112": {
+        "username": "Mayank Agarwal",
+        "email_id": "mayankagarwal@sapient.com",
+        "oracle_id": 122112,
+        "address": "#124 3rd cross, pm street, 560100",
+        "designation": "Senior Manager",
+        "profile_photo": "../img/supervisor/mayank.jpg",
+        "supervisee_list": [
+            112130,
+            112131,
+            112132
+        ]
+    },
+    "122113": {
+        "username": "Ramesh Singh",
+        "email_id": "rameshsingh@sapient.com",
+        "oracle_id": 122113,
+        "address": "#125 4th cross, pm street, 560101",
+        "designation": "Senior Manager",
+        "profile_photo": "../img/supervisor/ramesh.jpg",
+        "supervisee_list": [
+            112140,
+            112141,
+            112142
+        ]
+    },
+    "logincredentials": {
+        "Sreeram_Dalli": {
+            "password": "sreeram",
+            "oracle_id": "122110"
+        },
+        "Richa_Verma": {
+            "password": "richa",
+            "oracle_id": "122111"
+        },
+        "Mayank_Agarwal": {
+            "password": "mayank",
+            "oracle_id": "122112"
+        },
+        "Ramesh_Singh": {
+            "password": "ramesh",
+            "oracle_id": "122113"
+        }
+    }
+}

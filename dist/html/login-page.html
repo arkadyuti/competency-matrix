@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport">
+
+    <title>LoginPage</title>
+    <link href="/dist/css/global.css" rel="stylesheet" type="text/css">
+    <link href="/dist/css/components/login-page.css"  rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="background-gradient">
+    </div>
+
+
+    <div class="loginpage-content">
+
+        <div class="title-section">
+            <a class="sapient-logo" id="sapient-logo" tabindex="1"></a>
+
+            <div class="competency-matrix-text">
+                COMPETENCY MATRIX
+            </div>
+        </div>
+
+
+        <div class="login-section">
+            <div class="login-form">
+                <label for="username">
+                    <input class="login-username" name="username" placeholder="Username" required=""
+                    tabindex="2" type="text" value="">
+                </label>
+                <label for="password">
+
+                <input class="login-password" id="login-password" name="password" placeholder="Password" required="" tabindex="3" type="password" value="">
+                </label>
+
+                <div class="error-message">
+                  <p>Invalid Username or Password</p>
+                </div>
+                
+                <input class="login-btn" id="login-btn" tabindex="4" type="submit" value="LOGIN">
+                
+                <div class="form-footer">
+                    <label class="rememberme-label" for="rememberme">
+                        <input class="dummy-checkbox" id="rememberme" name="rememberme" placeholder="" tabindex="5" type="checkbox">
+                        <div class="custom-checkbox"></div>
+                        <p>Remember me</p>
+                    </label> 
+                    <a class="forgot-password-link" href="../html/ForgotPassword.html" tabindex="6">Forgot Password?</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script   src="https://code.jquery.com/jquery-3.1.1.js"   integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="   crossorigin="anonymous"></script>
+<script type="text/javascript" src="/dist/minified/scripts/components/login-page.js"></script>
+</html>
