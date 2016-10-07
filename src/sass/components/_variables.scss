@@ -1,0 +1,32 @@
+
+$psd-width:2560;
+$psd-height:1600;
+$browser-height:806;
+$browser-width:1440;
+
+/* COLORS */
+$cm-colors: (
+	Rose : '#D22324',   	/*red button */
+	grass : '#549205',  	/*green expert */
+	white : '#fff', 		/*white */
+	pool :  '#2d6c86', 		/*blue */
+	olive : '#8e7b03', 		/*mediocre*/
+	dark-gray : '#2c2c2c', 	/*table heading */
+	mid-gray : '#3d3d3d', 	/*zebra dark */
+	light-gray : '#424242', /*zebra light */
+	dim-grey : '#8c8c8c', 	/*search div border bottom */
+	black : "#000",
+	bright-red:"#D22324",
+	silver:'#c0c0c0',
+	lighter-gray: '#999'         
+);
+
+// Fonts
+$cm-fonts: (
+  font1: '\'SapientCentroSlab\'',
+  font2: '\'SapientCentroSlab-Medium\'',
+  font3: '\'SapientCentroSlab-Reg\'',
+  font4: '\'SapientCentroSlab-Thin\'',
+  font5: '\'Slabo27px-Regular\'',
+  font6: '\'SapientCentroSlab-XThin\'',
+);

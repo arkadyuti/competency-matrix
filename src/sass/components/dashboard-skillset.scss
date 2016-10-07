@@ -1,0 +1,358 @@
+@import "_global-sass.scss";
+
+$zebra-dark : get-color(mid-gray);
+$zebra-light : get-color(light-gray);
+$white-color :get-color(white);
+$red-button : get-color(Rose);
+ 
+body{
+  background: url('/dist/images/loginpage-images/clear-background.png') no-repeat;
+  background-size:cover;
+  height:100%;
+  position: relative;
+  overflow: auto;
+  .background-gradient{
+  background-color: get-color(black);
+    position: absolute;
+    opacity: 0.9;
+    z-index:-1;
+    width: 100%;
+    height: 100%;
+  }
+} 
+
+
+.cm-delete-small, .cm-edit-small, .cm-plus-small
+{ display: inline-block; background: url('/dist/images/dashboard-img/sprite-image.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+ 
+
+.accordian-width{
+  width: 100%;
+  padding: 0px;
+}
+.skills-wrapper{
+  float: left;
+  width: 49%;
+}
+.skills-wrapper:first-child{
+  margin-right: 5px;
+}
+.outer-layout{
+  width: 344px;
+}
+
+.container{
+  	width: 100%;
+
+	.skill-set{
+  		width: 100%;
+
+  	}
+  	.buttons-panel{
+  		width: 100%;
+  		background-color:$zebra-light ;
+  		height: 75px;
+  		border-radius: 0 0 5px 5px;
+  	}
+}
+
+.skill-set{
+	.accordion{
+		cursor: pointer;
+		width: 100%;
+		border: none;
+		@include font-family(font3);
+		text-align: left;
+		outline: none;
+		font-size: 15px;
+		transition: 0.4s;
+
+		.first-skill{
+			border-radius: 5px 5px 0 0;
+		}
+		.skill{
+			color: white;
+            padding: 18px;
+            border-bottom: 0.1px solid rgba(255, 255, 255, 0.32);
+            background-color: $zebra-light;
+		}
+		.accordian-panel{
+			display: none;
+		}
+
+		&:before{
+    	content: "\f107";
+    	font-size: 13px;
+    	color: $white-color;
+    	float: left;
+    	margin-left: 5px;
+    	padding: 18px;
+    	list-style: none;
+    	cursor: pointer;
+    	font-family: FontAwesome;
+    	}
+
+  		&.active:before{
+    	content: "\f106";
+    	font-family: FontAwesome;
+    	float: left;
+    	color: $white-color;
+    	padding-right: 18px;
+  		}
+	}
+
+
+}
+
+.skill{
+	.skill-level{
+		float: right;
+  		font-size: 10px;
+  		padding: 3px 9px;
+  		border-radius: 3px;
+	}
+	.beginner{
+		background-color: get-color(pool);
+
+	}
+	.mediocre{
+		background-color: get-color(olive);
+	}
+	.expert{
+		background-color: get-color(grass);
+	}
+	
+}
+
+.accordian-panel{
+	.sub-section{
+		@include font-family(font3);
+	  	color: $white-color;
+  		border-bottom: 0.1px solid rgba(255, 255, 255, 0.32);
+  		background-color: $zebra-dark;
+  		padding: 18px;
+
+		.sub-skill{
+			padding-left: 20px;
+		}
+		.sub-skill:before{
+  			content: "\f192";
+  			font-family: FontAwesome;
+  			padding-right: 10px;
+  			}
+		.star-container{
+       		width: 78px;
+    		height: 14px;
+    		float: right;
+    		background-image: url('/dist/images/dashboard-img/star-all.png');
+    		background-position: -64px 0px;
+		}
+	}
+}
+
+.star-container{
+	.star-common{
+		width: 14px;
+    	height: 14px;
+    	background-repeat: no-repeat;
+    	background-position: 0px 0px;
+    	margin-right: 2px;
+    	float: left;
+    	cursor: pointer;
+
+    	&:last-child{
+    	margin-right: 0px;  
+		}
+	}
+
+}
+
+.buttons-panel{
+	.edit-btn{
+	  	background-color: $white-color;
+  		width: 78px;
+  		height: 36px;
+  		border: none;
+  		margin: 20px 25px 0 14px;
+  		border-radius: 3px;
+		float: right;
+        font-size: 16px;
+		.edit-sign:before{
+  			border: 1px solid #000;
+  			content: "\f040";
+  			font-family: FontAwesome;
+             display: inline-block;
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            border-radius: 10px;
+            line-height: 18px;
+            font-size: 13px;
+		}
+		.edit-text{
+			@include font-family(font3);
+			padding-left: 8px;
+		}
+	}
+	.add-skills-btn{
+		float: right;
+		background-color: $red-button;
+	  	width: 117px;
+	    height: 36px;
+        border: none;
+  		margin-top: 20px;
+  		border-radius: 3px;
+        font-size: 16px;
+		.add-sign{
+			@include font-family(font3);
+			border: 1px solid $white-color;
+  			color: $white-color;
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            border-radius: 10px;
+            line-height: 20px;
+		}
+		.add-btn-text{
+			@include font-family(font3);
+  			color: $white-color;
+  			padding-left: 8px;
+		}
+	}
+}
+button:focus{
+  outline: none
+  }
+.clear-both{
+  clear: both;
+}
+.primary-sec-skills{
+    font-family: 'SapientCentroSlab-Reg';
+    font-size: 16px;
+    margin: auto auto 20px 16px;
+    color: $white-color;
+}
+.detail-supervisors-container-dashboard .desktop-back-btn{
+    font-family: 'SapientCentroSlab-Thin';
+    font-size: 16px;
+    margin: auto auto 30px 16px;
+    color:$white-color;
+}
+.desktop-back-btn div{
+    content: "\f104";
+    font-family: FontAwesome;
+}
+.detail-supervisors-container-dashboard ,.mobile-view-btns{
+    display: none;
+}
+@media screen and (max-width: 768px){
+    .skills-wrapper{
+        /* float: left; */
+        width: 100%;
+    }
+    .skills-wrapper:first-child{
+        margin-right: 0px;
+    }
+    .detail-supervisors{
+        width: 100%;
+    }
+    .accordion .skill span:last-of-type{
+        font-size: 12px;
+    }
+    #secondarySkills,.desktop-back-btn,.primary-sec-skills{
+      display: none;
+    }
+    #mobile-view-btns{
+        display: block;
+    }
+    .mobile-view-btns{
+        height: 100px;
+        width: 100%;
+        padding-top: 18px;
+        color: $white-color;
+        font-size: 20px;
+        font-family: 'SapientCentroSlab-Reg';
+    }
+    .mobile-view-btns .mobile-back-btn{
+        border-style: solid;
+        float: left;
+        border-width: 2px;
+        border-color: rgb(102, 102, 102);
+        border-radius: 30px;
+        background-color: rgba(0, 0, 0, 0);
+        width: 132px;
+        height: 62px;
+        margin: 0 0 0 35px;
+        padding: 20px 0px 0px 40px;
+
+    }
+    .mobile-pri-skills{
+        float: left;
+        background-color: transparent;
+        width: 132px;
+        height: 62px;
+        margin: 0 0 0 35px;
+        padding: 20px 0px 0px 25px;
+    }
+    .skills-active{
+        border-bottom: 5px solid $red-button;
+    }
+    .container .buttons-panel{
+        display: none;
+    }
+    .skill-set .accordion:before{
+        padding: 18px 18px;
+    }
+    .accordion .skill span:first-child{
+        font-size: 14px;
+        display: block;
+        float: left;
+        padding-top: 20px;
+    }
+    
+.cm-delete-small { background-position: -3px -0px; width: 30px; height: 30px; }
+.cm-edit-small { background-position: -3px -33px; width: 30px; height: 30px; }
+.cm-plus-small { background-position: -3px -66px; width: 30px; height: 30px; }
+
+    .edit-common{
+        float: right;
+        width: 30px;
+        height: 30px;
+        background-repeat: no-repeat;
+        margin-left: 10px;
+        display: none;
+        margin-top: 15px;
+    }
+
+
+    .skill-set .accordion.active:before{
+        padding-right: 18px;
+    }
+    .skill-level{
+        margin-top: 20px;
+    }
+    .accordian-panel .sub-section{
+        height: 51px;
+        padding: 16px 18px 0 35px;
+    }
+    .skill-set .accordion .skill{
+        height: 61px;
+        padding: 0px 18px 0px 18px;
+    }
+    .user-details-dashboard{
+        display: none;
+    }
+    .accordian-panel .sub-section .sub-skill{
+        padding-left: 4px;
+    }
+    .display-none{
+        display: none;
+    }
+    .display-block{
+        display: block;
+    }
+    .skill-set .accordion .accordian-panel{
+        font-size: 18px;
+    }
+}

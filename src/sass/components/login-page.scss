@@ -1,0 +1,218 @@
+@import "_global-sass.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background: url('/dist/images/loginpage-images/clear-background.png') no-repeat;
+  background-size:cover;
+  height:100vh;
+  position: relative;
+  overflow: hidden;
+
+  .background-gradient{
+    background-color: get-color(black);
+    position: absolute;
+    opacity: 0.9;
+    z-index:-1;
+    width: 100%;
+    height: 100%;
+  }
+
+}
+
+
+.loginpage-content{
+  box-sizing: border-box;
+  z-index:0;
+  position: absolute;
+  width: psd-to-browser-width-percent(1800);
+  height: psd-to-browser-height-pixel(480);
+  /*  border: 1px solid blue;           dummy */
+  margin-top: 267px;
+  margin-left: 14.84375%;
+  margin-right: 14.84375%;
+  margin-bottom: 267px;         
+  .title-section{
+    display: inline-block;
+    /* height: 241px; */
+    width: 66.13958%;
+    /*border: 1px solid red; dummy */
+
+    .sapient-logo{
+      display: block;
+      background: url('/dist/images/loginpage-images/loginContent/sapient-logo.png') no-repeat; 
+      background-size: contain;
+      height: 33.75px;
+      outline: none;
+      cursor: pointer;
+    }
+    .competency-matrix-text{
+      /* display: block; */
+      font-size: 75px;
+      margin-top: 34px;
+      /* max-width: 53%; */
+      color: get-color(white);
+      @include font-family(font6);
+    }
+
+  }  
+
+  .login-section{
+    display: inline-block;
+    float: right; 
+    width: calc-px-to-percent(337,1012.5);
+    /* border: 1px solid red;  */ /*   dummy   */    
+    .login-form{
+
+      box-sizing: border-box;
+      width: 100%; 
+
+      .error-message{
+        display: none; 
+        line-height: 25px; 
+        margin-left:14%;
+        margin-bottom: 7.65px;
+        color: red;
+      }
+      .login-username{
+        display: block;
+        background: url('/dist/images/loginpage-images/loginContent/username-icon.png') no-repeat;
+        background-size: 15.5625px; /* 7.6% */
+        width: 86%;
+        padding-left:14%;
+        padding-bottom: 10.075px;
+        font-size: 16px;
+        background-position-x: 3.6%;   /* 11.25px; */
+        background-position-y: 4.6%;    /*   1px; */
+        margin-bottom: 30.225px;
+        border-width: 0 0 1px 0;
+        border-bottom-color: rgb(66, 66, 66); 
+        color: get-color(white);
+        @include font-family(font4);
+        outline: none;
+      }
+      .login-password{
+        display: block;
+        background: url('/dist/images/loginpage-images/loginContent/password-icon.png') no-repeat;
+        background-size: 13.5625px;
+        width: 86%;
+        padding-left:14%;
+        padding-bottom: 10.075px;
+        font-size: 16px;
+        background-position-x: 3.6%;
+        margin-bottom: 7.65px; /* Total =  40.3px; */
+        border-width: 0 0 1px 0;
+        border-bottom-color: rgb(66, 66, 66); 
+        color: get-color(white);
+        @include font-family(font4);
+        outline: none;
+      }
+      .login-btn{
+        width: 100%;
+        height: 52px;
+        padding: 0;
+        background-color: get-color(Rose);
+        border-radius: 5px;
+        color: #fff;
+        border-width: 0;
+        @include font-family(font3);
+        font-size: 16px;
+        margin-bottom: 40.3px;
+        margin-top: 40.3px; /* change */
+        cursor: pointer;
+        outline: none;
+      } 
+
+      .form-footer{
+
+        width: 100%;
+
+        .rememberme-label{
+          color: get-color(white);
+          display: inline-block;
+          cursor: pointer;
+          @include font-family(font4);
+        } 
+        .dummy-checkbox{
+          display: none;
+        }
+        .custom-checkbox {
+          display: inline-block;
+          background: get-color(white);
+          width: 13px;
+          height: 13px;
+          color: white;
+          margin-left: 11.25px;
+          margin-right:16.875px;
+          text-align: center;
+        }
+        .dummy-checkbox:checked ~ .custom-checkbox {
+          background: url('/dist/images/loginpage-images/loginContent/checkBox-icon.png') no-repeat;
+          background-size: cover;
+          cursor: pointer;
+        }
+        .forgot-password-link{
+          color: get-color(white);
+          word-wrap: normal;
+          float:right;
+        }
+      }
+
+    }
+
+  }       
+}   
+
+
+
+
+
+$desktop:"(max-width: 1200px) and (min-width: 992px)";
+$mob:"(max-width: 992px)";  
+
+
+@media #{$desktop}{ 
+
+  .loginpage-content .title-section .competency-matrix-text{
+    font-size: 60px;
+  }
+
+  .loginpage-content .login-section .login-form .custom-checkbox {
+    margin-right: 8px;
+  }
+
+
+}
+
+
+@media #{$mob}{ 
+
+  .loginpage-content {
+
+    height:100%;
+    margin: 9% auto;
+    width: 100%;
+    justify-content: center;
+  }
+  .loginpage-content .title-section {
+    margin: 0 auto;
+    padding-bottom: 54px;
+    display: block;
+    height: auto;
+    width: 33.13958%;
+  }
+
+  .loginpage-content .title-section .competency-matrix-text{
+    font-size: 54px;
+  }
+
+  .loginpage-content .login-section {
+    float: left;
+    margin-left: 33%;
+
+  }
+}
+
+

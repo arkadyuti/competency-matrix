@@ -1,0 +1,204 @@
+@font-face {
+  font-family: 'SapientCentroSlab';
+  src: url("../font/SapientCentroSlab.eot") format("eot");
+  src: url("../font/SapientCentroSlab.ttf") format("ttf");
+  src: url("../font/SapientCentroSlab.woff") format("woff");
+  src: url("../font/SapientCentroSlab.woff2") format("woff2"); }
+
+@font-face {
+  font-family: 'SapientCentroSlab-Medium';
+  src: url("../font/SapientCentroSlab-Medium.eot") format("eot");
+  src: url("../font/SapientCentroSlab-Medium.otf") format("otf");
+  src: url("../font/SapientCentroSlab-Medium.ttf") format("ttf");
+  src: url("../font/SapientCentroSlab-Medium.woff") format("woff");
+  src: url("../font/SapientCentroSlab-Medium.woff2") format("woff2"); }
+
+@font-face {
+  font-family: 'SapientCentroSlab-Reg';
+  src: url("../font/SapientCentroSlab-Reg.otf") format("otf"); }
+
+@font-face {
+  font-family: 'SapientCentroSlab-Thin';
+  src: url("../font/SapientCentroSlab-Thin.eot") format("eot");
+  src: url("../font/SapientCentroSlab-Thin.otf") format("otf");
+  src: url("../font/SapientCentroSlab-Thin.ttf") format("ttf");
+  src: url("../font/SapientCentroSlab-Thin.woff") format("woff");
+  src: url("../font/SapientCentroSlab-Thin.woff2") format("woff2"); }
+
+@font-face {
+  font-family: 'Slabo27px-Regular';
+  src: url("../font/Slabo27px-Regular.eot") format("eot");
+  src: url("../font/Slabo27px-Regular.ttf") format("ttf"); }
+
+@font-face {
+  font-family: 'SapientCentroSlab-XThin';
+  src: url("../font/SapientCentroSlab-XThin.eot") format("eot");
+  src: url("../font/SapientCentroSlab-XThin.otf") format("otf");
+  src: url("../font/SapientCentroSlab-XThin.ttf") format("ttf");
+  src: url("../font/SapientCentroSlab-XThin.woff") format("woff");
+  src: url("../font/SapientCentroSlab-XThin.woff2") format("woff2"); }
+
+/* COLORS */
+/* COLORS */
+* {
+  box-sizing: border-box; }
+
+body {
+  background: url("/dist/images/loginpage-images/clear-background.png") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  overflow: hidden; }
+  body .background-gradient {
+    background-color: #000;
+    position: absolute;
+    opacity: 0.9;
+    z-index: -1;
+    width: 100%;
+    height: 100%; }
+
+.loginpage-content {
+  box-sizing: border-box;
+  z-index: 0;
+  position: absolute;
+  width: 70.3125%;
+  height: 241.8px;
+  /*  border: 1px solid blue;           dummy */
+  margin-top: 267px;
+  margin-left: 14.84375%;
+  margin-right: 14.84375%;
+  margin-bottom: 267px; }
+  .loginpage-content .title-section {
+    display: inline-block;
+    /* height: 241px; */
+    width: 66.13958%;
+    /*border: 1px solid red; dummy */ }
+    .loginpage-content .title-section .sapient-logo {
+      display: block;
+      background: url("/dist/images/loginpage-images/loginContent/sapient-logo.png") no-repeat;
+      background-size: contain;
+      height: 33.75px;
+      outline: none;
+      cursor: pointer; }
+    .loginpage-content .title-section .competency-matrix-text {
+      /* display: block; */
+      font-size: 75px;
+      margin-top: 34px;
+      /* max-width: 53%; */
+      color: #fff;
+      font-family: 'SapientCentroSlab-XThin'; }
+  .loginpage-content .login-section {
+    display: inline-block;
+    float: right;
+    width: 33.28395%;
+    /* border: 1px solid red;  */
+    /*   dummy   */ }
+    .loginpage-content .login-section .login-form {
+      box-sizing: border-box;
+      width: 100%; }
+      .loginpage-content .login-section .login-form .error-message {
+        display: none;
+        line-height: 25px;
+        margin-left: 14%;
+        margin-bottom: 7.65px;
+        color: red; }
+      .loginpage-content .login-section .login-form .login-username {
+        display: block;
+        background: url("/dist/images/loginpage-images/loginContent/username-icon.png") no-repeat;
+        background-size: 15.5625px;
+        /* 7.6% */
+        width: 86%;
+        padding-left: 14%;
+        padding-bottom: 10.075px;
+        font-size: 16px;
+        background-position-x: 3.6%;
+        /* 11.25px; */
+        background-position-y: 4.6%;
+        /*   1px; */
+        margin-bottom: 30.225px;
+        border-width: 0 0 1px 0;
+        border-bottom-color: #424242;
+        color: #fff;
+        font-family: 'SapientCentroSlab-Thin';
+        outline: none; }
+      .loginpage-content .login-section .login-form .login-password {
+        display: block;
+        background: url("/dist/images/loginpage-images/loginContent/password-icon.png") no-repeat;
+        background-size: 13.5625px;
+        width: 86%;
+        padding-left: 14%;
+        padding-bottom: 10.075px;
+        font-size: 16px;
+        background-position-x: 3.6%;
+        margin-bottom: 7.65px;
+        /* Total =  40.3px; */
+        border-width: 0 0 1px 0;
+        border-bottom-color: #424242;
+        color: #fff;
+        font-family: 'SapientCentroSlab-Thin';
+        outline: none; }
+      .loginpage-content .login-section .login-form .login-btn {
+        width: 100%;
+        height: 52px;
+        padding: 0;
+        background-color: #D22324;
+        border-radius: 5px;
+        color: #fff;
+        border-width: 0;
+        font-family: 'SapientCentroSlab-Reg';
+        font-size: 16px;
+        margin-bottom: 40.3px;
+        margin-top: 40.3px;
+        /* change */
+        cursor: pointer;
+        outline: none; }
+      .loginpage-content .login-section .login-form .form-footer {
+        width: 100%; }
+        .loginpage-content .login-section .login-form .form-footer .rememberme-label {
+          color: #fff;
+          display: inline-block;
+          cursor: pointer;
+          font-family: 'SapientCentroSlab-Thin'; }
+        .loginpage-content .login-section .login-form .form-footer .dummy-checkbox {
+          display: none; }
+        .loginpage-content .login-section .login-form .form-footer .custom-checkbox {
+          display: inline-block;
+          background: #fff;
+          width: 13px;
+          height: 13px;
+          color: white;
+          margin-left: 11.25px;
+          margin-right: 16.875px;
+          text-align: center; }
+        .loginpage-content .login-section .login-form .form-footer .dummy-checkbox:checked ~ .custom-checkbox {
+          background: url("/dist/images/loginpage-images/loginContent/checkBox-icon.png") no-repeat;
+          background-size: cover;
+          cursor: pointer; }
+        .loginpage-content .login-section .login-form .form-footer .forgot-password-link {
+          color: #fff;
+          word-wrap: normal;
+          float: right; }
+
+@media (max-width: 1200px) and (min-width: 992px) {
+  .loginpage-content .title-section .competency-matrix-text {
+    font-size: 60px; }
+  .loginpage-content .login-section .login-form .custom-checkbox {
+    margin-right: 8px; } }
+
+@media (max-width: 992px) {
+  .loginpage-content {
+    height: 100%;
+    margin: 9% auto;
+    width: 100%;
+    justify-content: center; }
+  .loginpage-content .title-section {
+    margin: 0 auto;
+    padding-bottom: 54px;
+    display: block;
+    height: auto;
+    width: 33.13958%; }
+  .loginpage-content .title-section .competency-matrix-text {
+    font-size: 54px; }
+  .loginpage-content .login-section {
+    float: left;
+    margin-left: 33%; } }

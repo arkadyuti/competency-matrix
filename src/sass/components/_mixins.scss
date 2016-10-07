@@ -1,0 +1,29 @@
+@import "_variables.scss";
+
+@mixin font-family($font) {
+	font-family: unquote(map-get($cm-fonts, $font));
+}
+
+@function get-color($color){
+	@return unquote(map-get($cm-colors, $color));
+}
+
+@function psd-to-browser-width-percent($target) {
+  @return ($target / $psd-width) * 100%;
+}
+
+@function psd-to-browser-height-percent($target) {
+  @return ($target / $psd-height) * 100%;
+}
+
+@function psd-to-browser-height-pixel($target) {
+  @return ($target / $psd-height) * $browser-height+px;
+}
+
+@function px-to-browser-width-percent($target) {
+  @return ($target / $browser-width) * 100%;
+}
+
+@function calc-px-to-percent($target,$referenceinpercent) {
+  @return ($target / $referenceinpercent) * 100%;
+}
