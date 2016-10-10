@@ -1,6 +1,8 @@
 var path = require("path");
 var fs = require('fs');
 var bodyParser = require('body-parser');
+var session = require('express-session');
+var cookieParser = require('cookie-parser');
 
 var jsonFile = './dist/json/supervisor.json';
 var contents = fs.readFileSync(jsonFile).toString();
@@ -12,7 +14,7 @@ var jsonSkillData = JSON.parse(jsonDataContents);
 
 
 var appRouter = function (app) {
-
+    app.use(cookieParser());
    app.use( bodyParser.json() );       // to support JSON-encoded bodies
   app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
     extended: true
@@ -49,17 +51,17 @@ var appRouter = function (app) {
            res.send(data);     
   });
  app.post("/star-data", function (req,res) {
-    console.log(req.body);
+    superviseeID = req.cookies["superviseeID"];
     var starObject = req.body;
     if(starObject.skillType === "primarySkills"){
         console.log("S");
-        for (var i = 0; i < jsonData['112101'].primaryskills.length; i++) {
-            if((jsonData['112101'].primaryskills[i].skillName) === starObject.mainSkill){
-                jsonData['112101'].primaryskills[i].rating = starObject.averageStar;
-                jsonData['112101'].primaryskills[i].level = starObject.skillLevel;
-                for(var j = 0; j<jsonData['112101'].primaryskills[i].subSkill.length; j++){
-                    if((jsonData['112101'].primaryskills[i].subSkill[j].subSkillName) === starObject.subSkillValue){
-                        jsonData['112101'].primaryskills[i].subSkill[j].rating = starObject.starValue;
+        for (var i = 0; i < jsonData[superviseeID].primaryskills.length; i++) {
+            if((jsonData[superviseeID].primaryskills[i].skillName) === starObject.mainSkill){
+                jsonData[superviseeID].primaryskills[i].rating = starObject.averageStar;
+                jsonData[superviseeID].primaryskills[i].level = starObject.skillLevel;
+                for(var j = 0; j<jsonData[superviseeID].primaryskills[i].subSkill.length; j++){
+                    if((jsonData[superviseeID].primaryskills[i].subSkill[j].subSkillName) === starObject.subSkillValue){
+                        jsonData[superviseeID].primaryskills[i].subSkill[j].rating = starObject.starValue;
                         var jsonFile = './dist/json/supervisor.json';
                         fs.writeFileSync(jsonFile, JSON.stringify(jsonData));
                         res.send(jsonData);
@@ -71,11 +73,11 @@ var appRouter = function (app) {
         }
     }else {
         console.log("SS");
-        for (var i = 0; i < jsonData['112101'].secondaryskills.length; i++) {
-            if((jsonData['112101'].secondaryskills[i].skillName) === starObject.mainSkill){
-                for(var j = 0; j<jsonData['112101'].secondaryskills[i].subSkill.length; j++){
-                    if((jsonData['112101'].secondaryskills[i].subSkill[j].subSkillName) === starObject.subSkillValue){
-                        jsonData['112101'].secondaryskills[i].subSkill[j].rating = starObject.starValue;
+        for (var i = 0; i < jsonData[superviseeID].secondaryskills.length; i++) {
+            if((jsonData[superviseeID].secondaryskills[i].skillName) === starObject.mainSkill){
+                for(var j = 0; j<jsonData[superviseeID].secondaryskills[i].subSkill.length; j++){
+                    if((jsonData[superviseeID].secondaryskills[i].subSkill[j].subSkillName) === starObject.subSkillValue){
+                        jsonData[superviseeID].secondaryskills[i].subSkill[j].rating = starObject.starValue;
                         var jsonFile = './dist/json/supervisor.json';
                         fs.writeFileSync(jsonFile, JSON.stringify(jsonData));
                         res.send(jsonData);
@@ -87,7 +89,7 @@ var appRouter = function (app) {
         }
     }
     // receivedData = req.body;
-    // jsonData['112101'].primaryskills.push(receivedData.primaryskills[0]);
+    // jsonData[superviseeID].primaryskills.push(receivedData.primaryskills[0]);
     // var jsonFile = './dist/json/supervisor.json';
     // fs.writeFileSync(jsonFile, JSON.stringify(jsonData));
     // res.send(jsonData);
@@ -110,22 +112,24 @@ var appRouter = function (app) {
       res.sendFile(path.join(__dirname + '/dist/html/dashboard.html'));
   });
   app.get("/skill-data", function (req, res) {
-    var parsedData = jsonData['112101'];
+    superviseeID = req.cookies["superviseeID"];
+    var parsedData = jsonData[superviseeID];
     parsedData.dictonary = jsonSkillData;
     res.send(parsedData);
   });
   app.post("/skill-data-post", function (req,res) {
+    superviseeID = req.cookies["superviseeID"];
     console.log(req.body);
     receivedData = req.body;
-    jsonData['112101'].primaryskills.push(receivedData.primaryskills[0]);
+    jsonData[superviseeID].primaryskills.push(receivedData.primaryskills[0]);
     var jsonFile = './dist/json/supervisor.json';
     fs.writeFileSync(jsonFile, JSON.stringify(jsonData));
     res.send(jsonData);
   });
   app.post("/skill-data-post-secondary", function (req,res) {
-    console.log(req.body);
+    superviseeID = req.cookies["superviseeID"];
     receivedData = req.body;
-    jsonData['112101'].secondaryskills.push(receivedData.secondaryskills[0]);
+    jsonData[superviseeID].secondaryskills.push(receivedData.secondaryskills[0]);
     var jsonFile = './dist/json/supervisor.json';
     fs.writeFileSync(jsonFile, JSON.stringify(jsonData));
     res.send(jsonData);
