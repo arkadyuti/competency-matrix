@@ -6,6 +6,7 @@ $(document).ready(function (){
 		method : "GET",
 		data : "JSON",
 		success : function(response) {
+			console.log(response);
 			addSkillPopupCallback(response)
 		},
 		error : function (error) {

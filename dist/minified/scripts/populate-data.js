@@ -1,6 +1,5 @@
 'use strict';
 $(document).ready(function() {
-
 	$("#saveChanges").on('click', function(event) {
 		event.preventDefault();
 		
@@ -204,44 +203,115 @@ $(document).ready(function() {
 		thisContext.next().slideToggle("slow");
 	}
 	/**Star Rating**/
+	$(".edit-btn").on("click", function(event) {
+		event.preventDefault();
+		var clicks = $(this).data('clicks');
+		if (clicks) {
+			$(".star-common").parent().addClass("star-opacity");
+			$(".star-common").addClass("eventlistner-none");
+			$(".edit-text").text("Edit");
+		} else {
+			$(".star-common").parent().removeClass("star-opacity");
+			$(".star-common").removeClass("eventlistner-none");
+			$(".edit-text").text("Save");
+		}
+		$(this).data("clicks", !clicks);
+	});	
 	function subSkillStarRating () {
 		var commonStars = $(".star-common");
 		commonStars.click(function(event) {
 			event.stopPropagation();
 			event.preventDefault();
+			var starCredentials = {};
 			var starValue = $(this).attr("data-value");
 			var starPosition = $(this).attr("data-position");
 			$(this).parent().css('background-position', '-'+starPosition+'px 0px');
-			console.log(starValue);
+			var subSkillValue = $(this).parent().parent().children().first().text();
+			var mainSkill = $(this).parents('.accordion').find(".main-skill").text();
+			var skillType = $(this).parents(".skills-wrapper")[0].id;
+			$(this).parent().attr("data-star",starValue);
+			var starRatingSubsection = ($(this).parents(".accordian-panel").find(".star-container"));
+			var averageStar=0;
+			for(var i = 0; i<starRatingSubsection.length; i++){
+				averageStar+=parseInt(($(starRatingSubsection[i]).attr("data-star")));
+				
+			}
+			averageStar = Math.round((averageStar/i));
+			var skillLevel;
+			if(averageStar===1){
+				skillLevel = "Beginner";
+				$(this).parents(".accordion").find(".skill-level").text("Beginner");
+				$(this).parents(".accordion").find(".skill-level").addClass("Beginner");
+				$(this).parents(".accordion").find(".skill-level").removeClass("Mediocre");
+				$(this).parents(".accordion").find(".skill-level").removeClass("Expert");
+			}
+			else if ((averageStar===2)||(averageStar===3)) {
+				skillLevel = "Mediocre";
+				$(this).parents(".accordion").find(".skill-level").text("Mediocre");
+				$(this).parents(".accordion").find(".skill-level").addClass("Mediocre");
+				$(this).parents(".accordion").find(".skill-level").removeClass("Beginner");
+				$(this).parents(".accordion").find(".skill-level").removeClass("Expert");
+			}else {
+				skillLevel = "Expert";
+				$(this).parents(".accordion").find(".skill-level").text("Expert");
+				$(this).parents(".accordion").find(".skill-level").addClass("Expert");
+				$(this).parents(".accordion").find(".skill-level").removeClass("Mediocre");
+				$(this).parents(".accordion").find(".skill-level").removeClass("Beginner");
+			}
+			starCredentials = {
+				starValue : starValue,
+				mainSkill : mainSkill,
+				subSkillValue : subSkillValue,
+				skillType : skillType,
+				averageStar : averageStar,
+				skillLevel : skillLevel
+			}
+			$.ajax({
+				url: '/star-data',
+				type: 'POST',
+				data: starCredentials
+			})			
+			// for (var i = 0; i < skill[112101].primaryskills.length; i++) {
+			// 	if((skill[112101].primaryskills[i].skillName) === mainSkill){
+			// 		for(var j = 0; j<skill[112101].primaryskills[i].subSkill.length; j++){
+			// 			if((skill[112101].primaryskills[i].subSkill[j].subSkillName) === subSkillValue){
+			// 				console.log(subSkillValue);
+			// 				break;
+			// 			}
+			// 		}
+			// 		break;
+			// 	}
+			// }
+			
 		});
 	}
 	/**Skills Popup Box Functionality**/
 	function addSkillsPopup () {
-		var fullBody = $("#fullBody");
+		var modelBody = $("#modelBody");
 		$(".cm-plus-small").on('click', function(event) {
 			event.preventDefault();
 			event.stopPropagation();
-			fullBody.css('display', 'block');
-			$(".popupOpacity").css('display', 'block');
+			modelBody.css('display', 'block');
+			$(".popup-opacity").css('display', 'block');
 		});
 
 		var addSkillBtn = $(".add-skills-btn");
 		addSkillBtn.on('click', function(event) {
 			event.preventDefault();
-			fullBody.css('display', 'block');
-			$(".popupOpacity").css('display', 'block');
+			modelBody.css('display', 'block');
+			$(".popup-opacity").css('display', 'block');
 			var className = $(this).attr("id");
 			$("#saveChanges").addClass(className);
 		});
-		$(".popupOpacity").on('click', closePopupFunction);
+		$(".popup-opacity").on('click', closePopupFunction);
 		$(".close-popup").on('click', closePopupFunction);
 		
 		closePopupFunction();
 	}
-	function closePopupFunction (fullBody) {
+	function closePopupFunction (modelBody) {
 
-		$("#fullBody").css('display', 'none');
-		$(".popupOpacity").css('display', 'none');
+		$("#modelBody").css('display', 'none');
+		$(".popup-opacity").css('display', 'none');
 	}
 
 	/**Seperate display of Skills**/
@@ -272,7 +342,11 @@ $(document).ready(function() {
 		});
 	}
 
-
+	$(".desktop-back-btn span").on('click', landingPageRedirection);
+	$(".mobile-back-btn").on('click', landingPageRedirection);
+	function landingPageRedirection () {
+		window.location.href = "#";
+	}	
 	
 	$( window ).resize(function() {
 		if($(window).width( 768 )) {

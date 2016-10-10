@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="/dist/css/components/bootstrap.css">
+	<link rel="stylesheet" href="/dist/css/global.css">
+    <link rel="stylesheet" href="/dist/css/components/layout.css"> 
+  	<!--   <link rel="stylesheet" href="/dist/css/components/Landing.css"> -->
+ 	<!--    <link rel="stylesheet" href="/dist/css/components/search.css"> -->
+    <link rel="stylesheet" href="/dist/css/font/font-awesome-4.6.3/scss/font-awesome.css">
+   	<!-- <link rel="stylesheet" href="/dist/css/components/left-user-panel.css"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="/dist/minified/scripts/Components/jquery-3.1.0.js"></script>
+     <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <meta name=”viewport” content=”width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0” />
+    <meta name="keywords" content="sapient,competencymatrix,IAP-2">
+    <meta name="description" content="LoginPage for CompetencyMatrix">
+    <meta name="author" content="Abhay Singh,Subhendu Kundu,Saloni Luhadia,Chetana Kisku">
+
+</head>
+<body>
+<div class="main-wrapper">
+	<header class="template-header">
+	 	<!-- HEADER TEMPLATE -->
+	</header>
+	<div class="main-container content-width">
+		<section class="user-details col-md-3 col-sm-3">
+			<!-- Insert Left Pannel -->
+			<div class="left-user-panel">
+				<!-- Insert template -->
+			</div>
+		</section>
+		<div class="search-supervisors col-md-8 col-sm-8">
+			<!-- Insert search Pannel -->
+			<div class="search">
+				<form class="form-search" id="form-search">
+					<input type="text" name="searchfield" class="header-search" id="header-search" placeholder="Search" autocomplete="off">
+				</form>
+			</div>
+			<div id="search-data" class="search-data">
+            </div>
+				
+		</div>
+
+		<section class="detail-supervisors-container col-md-8 col-sm-8 col-xs-11">
+			<!-- List Heading -->
+			<div class="list-Name">
+				<h3>Your Supervisees</h3>
+			</div> 
+			<!-- Table Heading -->
+			<div class="heading hide-id" >
+				<div class="hcol-1"></div>
+				<div class="hcol-2" id="oracle-id">EMP. ID</div>
+				<div class="hcol-3" id="name" >EMP. NAME</div>
+				<div class="hcol-4">ROLE</div>
+				<div class="hcol-5">ACTION</div>
+			</div>
+			<!-- Table Contents -->
+			<div class="detail-supervisors ">
+			<!-- Insert middle Pannel -->
+				<div class="table-entry">
+				
+				</div>
+				
+			</div>
+		</section>
+		<aside class="scroll-bar col-md-1 col-sm-1 col-xs-1">
+			<!-- Insert scroll Pannel -->
+			<ol class="alphabet-list" id="alphabet-list">
+				<li>#</li>
+				<li>A</li>
+				<li>B</li>
+				<li>C</li>
+				<li>D</li>
+				<li>E</li>
+				<li>F</li>
+				<li>G</li>
+				<li>H</li>
+				<li>I</li>
+				<li>J</li>
+				<li>K</li>
+				<li>L</li>
+				<li>M</li>
+				<li>N</li>
+				<li>O</li>
+				<li>P</li>
+				<li>Q</li>
+				<li>R</li>
+				<li>S</li>
+				<li>T</li>
+				<li>U</li>
+				<li>V</li>
+				<li>W</li>
+				<li>X</li>
+				<li>Y</li>
+				<li>Z</li>
+			</ol>
+		</div>
+		<div class="clear-both">
+			
+		</div>
+	</aside>
+	<footer class="footer">
+		<!-- insert footer -->
+	</footer> 
+
+</div>
+
+
+<script id="headerTemplate" type="text/x-handlebars-template">
+	<div class="header-content content-width">
+			<!-- content -->
+			<div class="sapient-competency-logo">
+			</div>
+            
+            <div class="triangle"></div>
+        
+	        <nav class="dropdown-competency">
+	            <img  class="dropdown-img" src="{{profile_photo}}"/>
+
+	            <div class="dropdown-content">
+	            <ul class="list">
+	                <li class="list-item"><a href="UpdateProfile.html" class="link"><img src="{{profile_photo}}" class="drop-icon drop-icon1" id="myProfileIcon">My Profile</a></li>
+	                <li  class="list-item"><a href="" class="link"><span class="drop-icon drop-icon2"></span>Help</a></li>
+	                <li class="list-item"><a href="login.html" class="link"><span class="drop-icon drop-icon3"></span>Log Out</a></li>
+	            </ul>
+	            </div>
+	            <span class="supervisor-name" ">{{username}}</span> 
+	        </nav>
+	        <div class="clear-both">
+			
+		</div>
+        	
+    	</div>
+</script>
+
+<script id="footerTemplate" type="text/x-handlebars-template">
+	<div class="copyright-footer">COPYRIGHT &copy;
+		        2004-{{date}}
+			       
+			        <span>SAPIENT</span>
+		    	</div>
+		    	<div class="red-bar">
+		    		
+		    	</div>
+</script>
+
+
+<script id="user-detail-template" type="text/x-handlebars-template">
+		
+		
+	<div class="user-picture">
+		<img id="user-pic" class="user-pic" src="{{profile_photo}}">
+	</div>
+	<div class="user-details-block">
+		<div id="user-name" class="user-name">{{username}}</div>
+		<ul id="user-details" class="left-user-details">
+			<li>{{oracle_id}}</li>
+			<li>{{email_id}}</li>
+			<li>{{designation}}</li>
+			<li>{{address}}</li>
+	 			</ul>
+	</div>
+	</script>
+
+<script id="table-contents" type="text/x-handlebars-template">
+		<div class="scroll-class">
+			{{#each supervisee}}
+			<div class="table-contents">
+				<div class="col-1 mcol-1">
+					<img src="{{image}}" alt="">
+				</div>
+				<div class="col-2 hide-id"><span>{{oracle_id}}</span></div>
+				<div class="col-3 mcol-2"><span>{{name}}</span> <span class="unhide"><span>{{oracle_id}}</span></div>
+				<div class="col-4 mcol-3"><span>{{role}}</span></div>
+				<div class="col-5 mcol-4">
+					<img src="../images/LandingPageImages/edit.png" class="editbtn">
+					<img src="../images/LandingPageImages/delete.png" class="deletebtn">
+				</div>
+			</div>
+			{{/each}}
+		</div>
+</script>
+
+
+<script type="text/javascript" src="/dist/minified/scripts/Components/handlebars-v4.0.5.js"></script>
+<script type="text/javascript" src="/dist/minified/scripts/global.js"></script>
+<script type="text/javascript" src="/dist/minified/scripts/Components/app.js"></script>
+<script type="text/javascript" src="/dist/minified/scripts/Components/landingPage.js"></script>
+<script type="text/javascript" src="/dist/minified/scripts/Components/search.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,211 @@
+@import "_fonts.scss";
+@import "_variables.scss";
+@import "_mixins.scss";
+
+$table-contents-width: 100%;
+$table-contents-height: 70px;
+$mobile:"(max-width: 768px)";
+$information-mobile: "(max-width : 480px)";
+
+*{
+	@include font-family(font4);
+	color: get-color(white);
+}
+
+ html{
+ 	font-size: 16px;
+ }
+.scroll-class{
+	height:567px;
+	overflow-y:auto;
+
+	}
+
+.list-Name{
+	background-color: #1b1b1b;
+	width: $table-contents-width;
+	height: $table-contents-height - 15;
+	line-height: 55px;
+	h3{
+		padding-left: 10px;
+	}
+}
+
+.heading{
+	height: $table-contents-height - 30;
+	width: $table-contents-width;
+
+	.hcol-1, .hcol-2, .hcol-3, .hcol-4, .hcol-5{
+		float: left;
+		background-color: get-color(dark-gray);
+		height: $table-contents-height - 30;
+		line-height: $table-contents-height - 30;
+	}
+
+	.hcol-1, .hcol-3, .hcol-4, .hcol-5{
+		text-align: center;
+	}
+
+	.hcol-1{
+		width: 15%;
+	}
+	.hcol-2{
+		width: 11%;
+	}
+	.hcol-3{
+		width: 26.8%;
+	}
+	.hcol-4{
+		width: 22%;
+	}
+		.hcol-5{
+		width: 25.2%;
+	}
+}
+
+.table-contents{
+	width: $table-contents-width;
+	height: $table-contents-height;
+/* 	margin-left:32.3%;
+	margin-top: 168px; */
+	.col-1, .col-2, .col-3, .col-4, .col-5{
+		float: left;
+		background-color: get-color(mid-gray);
+		line-height: $table-contents-height;
+	}
+	.col-1, .col-3, .col-4, .col-5{
+		text-align: center;
+	}
+
+	.col-3, .col-4{
+		font-size: 1.0rem;
+		line-height: 3.5em;
+		height: 70px;
+		overflow: hidden;
+	}
+	.col-1{	
+		width: 15%;
+			img{
+				/* padding:; */
+				position: relative;
+				top: 5px;
+				max-width: 40px;
+				border-radius: 10px;
+				}
+			}
+	.col-2{
+		width: 11%;
+	    font-size: 1.0rem;
+	    line-height: 3.5rem;
+	    height: 70px;
+	}
+	.col-3{
+		width: 26.8%;
+		span{
+			line-height: 1.0rem;
+		}
+	}
+	.col-4{
+		width: 22%;
+	}
+	.col-5{
+		width: 25.2%;
+		height: 70px;
+		.editbtn, .deletebtn{
+			position: relative;
+			max-width: 25px;
+			top: 1px;
+		}
+		.deletebtn{
+			left: 10px;
+		}
+	}
+}
+
+//changing styles @mobile view
+    .unhide {
+      display: none;
+    }
+/*   .max{
+  	max-height: 70px;
+  } */
+
+@media #{$mobile}{$media: #{$mobile};
+    /* For mobile phones: */
+    .hide-id{
+    	display: none;
+    }
+    .unhide{
+    	display: block;
+    	line-height: 0px;
+    }
+
+	.list-Name{
+		width:  100%;
+		text-align: center;
+	}
+
+	.table-contents{
+		width: 100%;
+	/* 	margin-left:32.3%;
+		margin-top: 168px; */
+		height: 70px;
+
+	.mcol-1{
+		width: 23%;
+	}
+	.mcol-2{
+		width: 29.3%;
+		line-height: 1.0rem;
+		box-sizing: border-box;
+		padding-top: 20px;
+		span{
+			line-height: 1.0rem;
+		}
+	}
+	.mcol-3{
+		width: 24%;
+		line-height: 1.0rem;
+		box-sizing: border-box;
+		padding-top: 20px;
+	}
+		.mcol-2, .m-col3{
+			height: 70px;
+	}	
+	.mcol-4{
+		width: 23.7%;
+		box-sizing: border-box;
+		padding-top: 6px;
+			.editbtn, .deletebtn{
+				position: relative;
+				max-width: 25px;
+				top: -5px;
+	}
+	.deletebtn{
+		left: 0px;
+	}
+	}
+	.mcol-2, .mcol-3{
+		text-align: left; 
+	}
+}
+}
+
+@media #{$information-mobile}{
+	.table-contents .mcol-4 .editbtn, .table-contents .mcol-4 .deletebtn {
+		max-width:  17px;
+	}
+
+	.table-contents .mcol-2 span, .table-contents .mcol-3 span{
+		font-size: 12px;
+	}
+
+	.table-contents .mcol-2, .table-contents .mcol-3{
+		padding-left: 6px;
+	}
+
+	.table-contents .mcol-4{
+		padding-right: 13px;
+	}
+
+}

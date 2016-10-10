@@ -1,0 +1,132 @@
+@import "_global-sass.scss";
+
+
+$tablet:"(max-width: 768px)";
+
+body{
+	@include font-family(font1);
+	/* lalal;*/
+}
+
+.search-container{
+	width:55%;
+	height:41px;
+	background-color: get-color(black); 
+}
+
+.search{
+	position: relative;
+	width:100%;
+	/*height:41px;*/	
+}
+
+.form-search{
+	font-size: 22px;
+	border-bottom: 1px solid get-color(dim-grey);
+	padding-bottom: 2px;
+	
+}
+.header-search{
+	width:50%;
+	background-color: transparent;
+	border: none;
+	color:get-color(white);
+	opacity: 0.5;
+	padding-left: 50px;
+	outline: none;
+}
+.form-search:before{
+	font-family: fontAwesome;
+	content:"\f002";
+	color:get-color(white);
+	position: absolute;
+	top:6px;
+	font-size: 15px;
+	left:25px;
+	font-weight: normal;
+    -moz-transform: rotate(-270.0deg);
+    -o-transform: rotate(-270.0deg);
+    -webkit-transform: rotate(-270.0deg);
+    transform: rotate(-270.0deg);
+}
+.search-style{
+	width: 40%;
+	position: absolute;
+    margin-left: 28px;
+    border: none;
+    border-radius: 2px;
+    background-color: get-color(white);
+    padding-left: 15px;
+    z-index: 1;
+    /*padding-bottom: 15px;
+    padding-top: 10px;*/
+}
+.li-search{
+	color:get-color(black);
+	list-style: none;
+	padding: 7px 5px 7px 5px;
+}
+.alphabet-search{
+	margin-top: 20px;
+	background:get-color(black);
+	width: 3%;
+	
+}
+.alphabet-list{
+	list-style: none;
+	background-color: transparent;
+	color:get-color(white);
+	width: 100%;
+	padding:10px;
+	margin-top: 100px;
+}
+.alphabet-list li{
+	opacity: 0.5;
+	cursor: pointer;
+	font-size: 14px;
+	&:hover{
+  @include font-family(font2);
+	font-size: 22px;
+	color:get-color(white);
+	opacity: 1; 
+}
+}
+
+
+
+@media #{$tablet}{$media : #{$tablet};
+.search-container {
+  height: 82px;
+}
+.search{
+	height:82px;	
+}
+
+.form-search{
+	font-size: 34px;
+	border-bottom: 3px solid #8c8c8c;
+    padding-bottom: 5px;
+    
+	/*text-align: left;*/
+}
+
+.form-search:before{
+	top: 13px;
+    font-size: 36px;
+    left: 55px;
+    font-weight:normal;
+
+}
+
+.header-search{
+    outline: none;
+    /*top: 13px;
+    position: absolute;
+    left: 90px;*/
+    padding:13px 0px 13px 95px;
+}
+
+}
+
+
+

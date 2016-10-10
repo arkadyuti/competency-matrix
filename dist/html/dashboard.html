@@ -9,50 +9,74 @@
     <link rel="stylesheet" href="/dist/css/font/font-awesome-4.6.3/scss/font-awesome.css"> 
     <link rel="stylesheet" href="/dist/css/components/dashboard-skillset.css">
     <link rel="stylesheet" href="/dist/css/components/addSkills.css">
+    <link rel="stylesheet" type="text/css" href="/dist/css/components/leftUserPanel.css">
 	<script src="/dist/minified/scripts/jquery-3.1.0.js" ></script>
     <script src="/dist/minified/scripts/handlebars-v4.0.5.js" ></script>
+    <meta name=”viewport” content=”width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0” />
+    <meta name="keywords" content="sapient,competencymatrix,IAP-2">
+    <meta name="description" content="LoginPage for CompetencyMatrix">
+    <meta name="author" content="Abhay Singh,Subhendu Kundu,Saloni Luhadia,Chetana Kisku">
 
 </head>
 <body>
 <div class="background-gradient"></div>
 <div class="main-wrapper">
 	<header class="template-header">
-		<div class="header-content content-width">
-			<!-- content -->
-			<div class="sapient-competency-logo">
-			</div>
-            
-            <div class="triangle"></div>
-        
-	        <nav class="dropdown-competency">
-	            <img  class="dropdown-img"/>
-
-	            <div class="dropdown-content">
-	            <ul class="list">
-	                <li class="list-item"><a href="UpdateProfile.html" class="link"><img src="" class="drop-icon drop-icon1" id="myProfileIcon">My Profile</a></li>
-	                <li  class="list-item"><a href="" class="link"><span class="drop-icon drop-icon2"></span>Help</a></li>
-	                <li class="list-item"><a href="login.html" class="link"><span class="drop-icon drop-icon3"></span>Log Out</a></li>
-	            </ul>
-	            </div>
-	            <span class="supervisor-name" ">Mr. Lala Pipi</span> 
-	        </nav>
-	        <div class="clear-both">
-			
-		</div>
-        	
-    	</div>
 	</header>
+	<script id="headerTemplate" type="text/x-handlebars-template">
+		<div class="header-content content-width">
+				<!-- content -->
+				<div class="sapient-competency-logo">
+				</div>
+	            
+	            <div class="triangle"></div>
+	        
+		        <nav class="dropdown-competency">
+		            <img  class="dropdown-img" src="{{profile_photo}}"/>
+
+		            <div class="dropdown-content">
+		            <ul class="list">
+		                <li class="list-item"><a href="UpdateProfile.html" class="link"><img src="{{profile_photo}}" class="drop-icon drop-icon1" id="myProfileIcon">My Profile</a></li>
+		                <li  class="list-item"><a href="" class="link"><span class="drop-icon drop-icon2"></span>Help</a></li>
+		                <li class="list-item"><a href="login.html" class="link"><span class="drop-icon drop-icon3"></span>Log Out</a></li>
+		            </ul>
+		            </div>
+		            <span class="supervisor-name" ">{{username}}</span> 
+		        </nav>
+		        <div class="clear-both">
+				
+			</div>
+	        	
+	    	</div>
+	</script>
 	<div class="main-container content-width">
 		<div class="user-details col-md-3 col-sm-3">
 			<!-- Insert Left Pannel -->
-		</div>
-		<div class="search-supervisors col-md-8 col-sm-8">
-			<!-- Insert search Pannel -->
-				
+			<div class="left-user-panel">
+				<!-- Insert template -->
+			</div>
+			<script id="user-detail-template" type="text/x-handlebars-template">
+		
+		
+			<div class="user-picture">
+				<img id="user-pic" class="user-pic" src="{{profile_photo}}">
+			</div>
+			<div class="user-details-block">
+				<div id="user-name" class="user-name">{{username}}</div>
+					<ul id="user-details" class="left-user-details">
+						<li>{{oracle_id}}</li>
+						<li>{{email_id}}</li>
+						<li>{{designation}}</li>
+						<li>{{address}}</li>
+			 		</ul>
+				</div>
+			</script>
+			
+
 		</div>
 		<!-- Dashboard -->
-		<div class="detail-supervisors-container col-md-8 col-sm-8 col-xs-11">
-			<div class="desktop-back-btn"><div></div>Back</div>
+		<div class="detail-supervisors-container col-md-9 col-sm-9 col-xs-11">
+			<div class="desktop-back-btn"><span></span> <span>Back</span></div>
 			<div class="mobile-view-btns" id="mobile-view-btns">
 				<div class="mobile-back-btn">Back</div>
 				<div id="priSkillsBtn" class="mobile-pri-skills skills-active">Pri. Skills</div>
@@ -69,8 +93,8 @@
 							{{#each primaryskills}}
 							<li class="accordion">
 							    <div class="skill">
-						        	<span>{{skillName}}</span>
-					            	<span class="skill-level beginner">BEGINNER</span>
+						        	<span class="main-skill">{{skillName}}</span>
+					            	<span class="skill-level {{level}}">{{level}}</span>
 					            	<div class="cm-delete-small edit-common"></div>
 					            	<div class="cm-edit-small edit-common"></div>
 					                <div class="cm-plus-small edit-common"></div>
@@ -79,12 +103,12 @@
 					        		{{#each subSkill}}
 						                <li class="sub-section">
 											<span class="sub-skill">{{subSkillName}}</span>
-											<div class="star-container">
-												<span data-position="64" data-value="1" class="star-common"></span>
-												<span data-position="48" data-value="2" class="star-common"></span>
-												<span data-position="32" data-value="3" class="star-common"></span>
-												<span data-position="16" data-value="4" class="star-common"></span>
-												<span data-position="0" data-value="5" class="star-common"></span>
+											<div class="star-container star-opacity star-pos-{{rating}}" data-star="{{rating}}">
+												<span data-position="64" data-value="1" class="star-common eventlistner-none"></span>
+												<span data-position="48" data-value="2" class="star-common eventlistner-none"></span>
+												<span data-position="32" data-value="3" class="star-common eventlistner-none"></span>
+												<span data-position="16" data-value="4" class="star-common eventlistner-none"></span>
+												<span data-position="0" data-value="5" class="star-common eventlistner-none"></span>
 											</div>
 						                </li>
 					                {{/each}}
@@ -96,7 +120,7 @@
 						</ul>
 						
 					    <div class="buttons-panel">
-					        <button value="edit" class="edit-btn">
+					        <button value="edit" id="primary-skills-edit-btn" class="edit-btn">
 					            <span class="edit-sign"></span>
 					            <span class="edit-text">Edit</span>
 					        </button>
@@ -116,8 +140,8 @@
 							{{#each secondaryskills}}
 							<li class="accordion">
 							    <div class="skill">
-						        	<span class="{{skillName}}">{{skillName}}</span>
-					            	<span class="skill-level beginner">BEGINNER</span>
+						        	<span class="main-skill">{{skillName}}</span>
+					            	<span class="skill-level {{level}}">{{level}}</span>
 					            	<div class="cm-delete-small edit-common"></div>
 					            	<div class="cm-edit-small edit-common"></div>
 					                <div class="cm-plus-small edit-common"></div>
@@ -126,12 +150,12 @@
 					        		{{#each subSkill}}
 						                <li class="sub-section">
 											<span class="sub-skill {{subSkillName}}">{{subSkillName}}</span>
-											<div class="star-container">
-												<span data-position="64" data-value="1" class="star-common"></span>
-												<span data-position="48" data-value="2" class="star-common"></span>
-												<span data-position="32" data-value="3" class="star-common"></span>
-												<span data-position="16" data-value="4" class="star-common"></span>
-												<span data-position="0" data-value="5" class="star-common"></span>
+											<div class="star-container star-opacity star-pos-{{rating}}">
+												<span data-position="64" data-value="1" class="star-common eventlistner-none"></span>
+												<span data-position="48" data-value="2" class="star-common eventlistner-none"></span>
+												<span data-position="32" data-value="3" class="star-common eventlistner-none"></span>
+												<span data-position="16" data-value="4" class="star-common eventlistner-none"></span>
+												<span data-position="0" data-value="5" class="star-common eventlistner-none"></span>
 											</div>
 						                </li>
 					                {{/each}}
@@ -162,33 +186,43 @@
 	</div>
 	<footer class="footer">
 		<!-- insert footer -->
-		<div class="copyright-footer">COPYRIGHT &copy;
-        2004-
-	        <script>
-	            document.write(new Date().getFullYear());
-	        </script> 
-	        <span>SAPIENT</span>
-    	</div>
-    	<div class="red-bar">
-    		
-    	</div>
+		<!-- <div class="copyright-footer">COPYRIGHT &copy;
+		        2004-
+			        <script>
+			            document.write(new Date().getFullYear());
+			        </script> 
+			        <span>SAPIENT</span>
+		    	</div>
+		    	<div class="red-bar">
+		    		
+		    	</div> -->
 		
 	</footer>
+	<script id="footerTemplate" type="text/x-handlebars-template">
+	<div class="copyright-footer">COPYRIGHT &copy;
+		        2004-{{date}}
+			       
+			        <span>SAPIENT</span>
+		    	</div>
+		    	<div class="red-bar">
+		    		
+		    	</div>
+</script>
 
 </div>
 
-<div class="popupOpacity"></div>
-<div class="full-body " id="fullBody"><!--Entire page content-->
-	<div class="box "><!--Modal Content-->
+<div class="popup-opacity"></div>
+<div class="model-body " id="modelBody"><!--Entire page content-->
+	<div class="model-box "><!--Modal Content-->
 		<span class="close-popup"></span>
 
 		<h3 class="heading ">Add New Skills</h3>
 		<div class="add-skills-form "><!--Form for adding new skills-->
 			<form class="new-skills " accept-charset="utf-8 "><!--To add new skills and subskills-->
-				<input type="text" class="new-skill-input add-skill " name="skill" value="sad" id="addSkill" placeholder="Add Skill " autocomplete="off"/><!--Main Skills-->
-				<input type="text" class="new-skill-input add-skill " name="skill" value="fun" id="subSkill0" placeholder="Subskill " autocomplete="off"/><!--Sub Skills in the main skills-->
+				<input type="text" class="new-skill-input add-skill " name="skill" id="addSkill" placeholder="Add Skill " autocomplete="off"/><!--Main Skills-->
+				<input type="text" class="new-skill-input add-skill " name="skill" id="subSkill0" placeholder="Subskill " autocomplete="off"/><!--Sub Skills in the main skills-->
 				<div id="newSkillDiv"></div>
-				<div class="foot ">
+				<div class="model-foot ">
 					<button id="saveChanges" class="savebutton new-skill-input ">
 						<span class="save ">Save</span>
 					</button>
@@ -202,9 +236,11 @@
 		</span>
 	</div>
 </div>
+<script src="/dist/minified/scripts/global.js" ></script>
 <script src="/dist/minified/scripts/addSkillsPopup.js" ></script>
 <script src="/dist/minified/scripts/populate-data.js" ></script>
 <script src="/dist/minified/scripts/accordian.js" ></script>
+<script type="text/javascript" src="/dist/minified/scripts/leftUserPanel.js"></script>
 
 
 </body>

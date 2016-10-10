@@ -54,6 +54,12 @@ body {
     width: 100%;
     height: 100%; }
 
+.main-wrapper .main-container {
+  padding-top: 10px; }
+
+.detail-supervisors-container {
+  padding: 0; }
+
 .cm-delete-small, .cm-edit-small, .cm-plus-small {
   display: inline-block;
   background: url("/dist/images/dashboard-img/sprite-image.png") no-repeat;
@@ -83,7 +89,8 @@ body {
     width: 100%;
     background-color: #424242;
     height: 75px;
-    border-radius: 0 0 5px 5px; }
+    border-radius: 0 0 5px 5px;
+    padding-left: 10px; }
 
 .skill-set .accordion {
   cursor: pointer;
@@ -106,38 +113,44 @@ body {
   .skill-set .accordion:before {
     content: "\f107";
     font-size: 13px;
-    color: #fff;
+    color: #ffffff;
     float: left;
     margin-left: 5px;
     padding: 18px;
     list-style: none;
     cursor: pointer;
-    font-family: FontAwesome; }
+    font-family: FontAwesome;
+    font-weight: bold; }
   .skill-set .accordion.active:before {
     content: "\f106";
     font-family: FontAwesome;
     float: left;
-    color: #fff;
-    padding-right: 18px; }
+    color: #ffffff;
+    padding-right: 18px;
+    font-weight: bold; }
 
 .skill .skill-level {
   float: right;
   font-size: 10px;
-  padding: 3px 9px;
-  border-radius: 3px; }
+  padding: 3px;
+  width: 70px;
+  border-radius: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.1em; }
 
-.skill .beginner {
+.skill .Beginner {
   background-color: #2d6c86; }
 
-.skill .mediocre {
+.skill .Mediocre {
   background-color: #8e7b03; }
 
-.skill .expert {
+.skill .Expert {
   background-color: #549205; }
 
 .accordian-panel .sub-section {
   font-family: 'SapientCentroSlab-Reg';
-  color: #fff;
+  color: #ffffff;
   border-bottom: 0.1px solid rgba(255, 255, 255, 0.32);
   background-color: #3d3d3d;
   padding: 18px; }
@@ -151,8 +164,17 @@ body {
     width: 78px;
     height: 14px;
     float: right;
-    background-image: url("/dist/images/dashboard-img/star-all.png");
+    background-image: url("/dist/images/dashboard-img/star-all.png"); }
+  .accordian-panel .sub-section .star-pos-1 {
     background-position: -64px 0px; }
+  .accordian-panel .sub-section .star-pos-2 {
+    background-position: -48px 0px; }
+  .accordian-panel .sub-section .star-pos-3 {
+    background-position: -32px 0px; }
+  .accordian-panel .sub-section .star-pos-4 {
+    background-position: -16px 0px; }
+  .accordian-panel .sub-section .star-pos-5 {
+    background-position: -0px 0px; }
 
 .star-container .star-common {
   width: 14px;
@@ -166,7 +188,7 @@ body {
     margin-right: 0px; }
 
 .buttons-panel .edit-btn {
-  background-color: #fff;
+  background-color: #ffffff;
   width: 78px;
   height: 36px;
   border: none;
@@ -200,8 +222,8 @@ body {
   font-size: 16px; }
   .buttons-panel .add-skills-btn .add-sign {
     font-family: 'SapientCentroSlab-Reg';
-    border: 1px solid #fff;
-    color: #fff;
+    border: 1px solid #ffffff;
+    color: #ffffff;
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -210,7 +232,7 @@ body {
     line-height: 20px; }
   .buttons-panel .add-skills-btn .add-btn-text {
     font-family: 'SapientCentroSlab-Reg';
-    color: #fff;
+    color: #ffffff;
     padding-left: 8px; }
 
 button:focus {
@@ -223,20 +245,29 @@ button:focus {
   font-family: 'SapientCentroSlab-Reg';
   font-size: 16px;
   margin: auto auto 20px 16px;
-  color: #fff; }
+  color: #ffffff; }
 
-.detail-supervisors-container-dashboard .desktop-back-btn {
-  font-family: 'SapientCentroSlab-Thin';
-  font-size: 16px;
-  margin: auto auto 30px 16px;
-  color: #fff; }
-
-.desktop-back-btn div {
-  content: "\f104";
-  font-family: FontAwesome; }
+.desktop-back-btn {
+  margin-bottom: 20px;
+  padding-left: 15px; }
+  .desktop-back-btn span:first-child:before {
+    content: "\f104";
+    font-family: FontAwesome;
+    color: #ffffff; }
+  .desktop-back-btn span:last-child {
+    padding-left: 5px;
+    font-size: 16px;
+    font-family: 'SapientCentroSlab-Thin';
+    color: #ffffff; }
 
 .detail-supervisors-container-dashboard, .mobile-view-btns {
   display: none; }
+
+.eventlistner-none {
+  pointer-events: none; }
+
+.star-opacity {
+  opacity: 0.5; }
 
 @media screen and (max-width: 768px) {
   .skills-wrapper {
@@ -256,27 +287,31 @@ button:focus {
     height: 100px;
     width: 100%;
     padding-top: 18px;
-    color: #fff;
+    color: #ffffff;
     font-size: 20px;
     font-family: 'SapientCentroSlab-Reg'; }
   .mobile-view-btns .mobile-back-btn {
+    font-size: 18px;
     border-style: solid;
     float: left;
     border-width: 2px;
     border-color: #666666;
     border-radius: 30px;
     background-color: transparent;
-    width: 132px;
-    height: 62px;
-    margin: 0 0 0 35px;
-    padding: 20px 0px 0px 40px; }
+    width: 90px;
+    height: 45px;
+    margin: 0 0 0 20px;
+    padding: 10px 0px 0px 25px; }
   .mobile-pri-skills {
     float: left;
     background-color: transparent;
-    width: 132px;
-    height: 62px;
-    margin: 0 0 0 35px;
-    padding: 20px 0px 0px 25px; }
+    width: 80px;
+    height: 45px;
+    margin: 0 0 0 20px;
+    padding: 12px 0px 0px 6px;
+    font-size: 16px;
+    font-family: 'SapientCentroSlab-Reg';
+    font-weight: bold; }
   .skills-active {
     border-bottom: 5px solid #D22324; }
   .container .buttons-panel {

@@ -4,7 +4,7 @@
 /*$mobile:"(max-width: 480px)";*/
 /* line 6, ../../src/sass/components/layout.scss */
 body {
-  background-color: black;
+ background-color: black;
 }
 
 /* line 9, ../../src/sass/components/layout.scss */
@@ -22,17 +22,18 @@ body {
   top: 0;
   left: 0;
   z-index: 1;
-  background-image: url(../img/Header.png);
+  background-image: url(../images/LandingPageImages/Header.png);
 }
 /* line 26, ../../src/sass/components/layout.scss */
 .main-wrapper .main-container {
   background-color: pool;
   min-height: 600px;
+  padding-top: 10px;
 }
 /* line 29, ../../src/sass/components/layout.scss */
 .main-wrapper .main-container .user-details {
-  background-color: olive;
-  min-height: 400px;
+  
+  /* min-height: 400px; */
 }
 /* line 33, ../../src/sass/components/layout.scss */
 .main-wrapper .main-container .search-supervisors {
@@ -56,7 +57,7 @@ body {
 .main-wrapper .footer .red-bar {
   height: 10px;
   width: 100%;
-  background-color: rose;
+  background-color: red;
 }
 /* line 54, ../../src/sass/components/layout.scss */
 .main-wrapper .footer .copyright-footer {
@@ -72,7 +73,7 @@ body {
   border: none;
   border-radius: 3px;
   float: right;
-  background-image: url("../img/user1.png");
+  background-image: url("../images/LandingPageImages/user1.png");
   background-repeat: no-repeat;
 }
 /* line 72, ../../src/sass/components/layout.scss */
@@ -86,6 +87,13 @@ body {
   border-radius: 7px;
   z-index: 1;
 }
+.dropdown-competency .dropdown-content::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 78%;
+    border: 7px solid;
+    border-color: transparent transparent #fff transparent; }
 /* line 82, ../../src/sass/components/layout.scss */
 .dropdown-competency .supervisor-name {
   float: right;
@@ -166,7 +174,7 @@ body {
 .header-content .sapient-competency-logo {
   cursor: pointer;
   background-repeat: no-repeat;
-  background-image: url(../img/logo.png);
+  background-image: url(../images/LandingPageImages/logo.png);
   height: 60px;
   width: 30px;
   background-position: 10px;
@@ -174,7 +182,7 @@ body {
 }
 /* line 151, ../../src/sass/components/layout.scss */
 .header-content .triangle {
-  background-image: url("../img/Shape 3.png");
+  background-image: url("../images/LandingPageImages/Shape 3.png");
   width: 20px;
   height: 20px;
   display: none;
@@ -187,14 +195,14 @@ body {
 
 /* line 162, ../../src/sass/components/layout.scss */
 .detail-supervisors-container {
-  background-color: black;
+  /* background-color: black; */
 }
 /* line 164, ../../src/sass/components/layout.scss */
 .detail-supervisors-container .detail-supervisors {
   min-height: 662px;
 }
 
-@media (max-width: 786px) {
+@media (max-width: 768px) {
   /* line 171, ../../src/sass/components/layout.scss */
   .content-width {
     width: 100%;
@@ -235,6 +243,7 @@ body {
   .main-wrapper .main-container .user-details {
     margin-top: 42px;
     width: 100%;
+    padding: 0px;
   }
   /* line 212, ../../src/sass/components/layout.scss */
   .main-wrapper .main-container .detail-supervisors-container {

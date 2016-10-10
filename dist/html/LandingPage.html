@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="/dist/css/components/bootstrap.css">
+	<link rel="stylesheet" href="/dist/css/global.css">
+    <link rel="stylesheet" href="/dist/css/components/layout.css">
+    <link rel="stylesheet" type="text/css" href="/dist/css/font/font-awesome-4.6.3/scss/font-awesome.css">
+<!-- 	<link rel="stylesheet" href="../../../dist/css/template.css"> -->
+	<link rel="stylesheet" href="/dist/css/components/search.css">
+	<link rel="stylesheet" href="/dist/css/components/Landing.css"> 
+	<link rel="stylesheet" href="/dist/css/components/left-user-panel.css">
+
+<script type="text/javascript" src="/dist/minified/scripts/components/jquery-3.1.0.js"></script>
+
+	
+</head>
+<body>
+<div class="main-wrapper">
+	<header class="template-header">
+		<div class="header-content content-width">
+			<!-- content -->
+			<div class="sapient-competency-logo">
+			</div>
+            
+            <div class="triangle"></div>
+        
+	        <nav class="dropdown-competency">
+	            <img  class="dropdown-img"/>
+
+	            <div class="dropdown-content">
+	            <ul class="list">
+	                <li class="list-item"><a href="UpdateProfile.html" class="link"><img src="" class="drop-icon drop-icon1" id="myProfileIcon">My Profile</a></li>
+	                <li  class="list-item"><a href="" class="link"><span class="drop-icon drop-icon2"></span>Help</a></li>
+	                <li class="list-item"><a href="login.html" class="link"><span class="drop-icon drop-icon3"></span>Log Out</a></li>
+	            </ul>
+	            </div>
+	            <span class="supervisor-name" ">Mr. Lala Pipi</span> 
+	        </nav>
+	        <div class="clear-both">
+			
+		</div>
+        	
+    	</div>
+	</header>
+	<div class="main-container content-width">
+		<div class="user-details col-md-3 col-sm-3">
+			<!-- Insert Left Pannel -->
+			<div class="left-user-panel">
+				<!-- Insert template -->
+			</div>
+		</div>
+		<div class="search-supervisors col-md-8 col-sm-8">
+			<!-- Insert search Pannel -->
+			<div class="search">
+				<form class="form-search" id="form-search">
+					<input type="text" name="searchfield" class="header-search" id="header-search" placeholder="Search" autocomplete="off">
+				</form>
+			</div>
+			<div id="search-data" class="search-data">
+            </div>
+				
+		</div>
+		<div class="detail-supervisors-container col-md-8 col-sm-8 col-xs-11">
+			<div class="detail-supervisors ">
+			<!-- Insert middle Pannel -->
+				<div class="list-Name">
+					<h3>Your Supervisees</h3>
+				</div> 	
+
+				<div class="heading hide-id" >
+					<div class="hcol-1"></div>
+					<div class="hcol-2" id="oracle-id">EMP. ID</div>
+					<div class="hcol-3" id="name" >EMP. NAME</div>
+					<div class="hcol-4">ROLE</div>
+					<div class="hcol-5">ACTION</div>
+				</div>
+
+				<div class="table-entry">
+		
+				</div>	
+			</div>
+		</div>
+		<div class="scroll-bar col-md-1 col-sm-1 col-xs-1">
+			<!-- Insert scroll Pannel -->
+			<ol class="alphabet-list" id="alphabet-list">
+				<li>#</li>
+				<li>A</li>
+				<li>B</li>
+				<li>C</li>
+				<li>D</li>
+				<li>E</li>
+				<li>F</li>
+				<li>G</li>
+				<li>H</li>
+				<li>I</li>
+				<li>J</li>
+				<li>K</li>
+				<li>L</li>
+				<li>M</li>
+				<li>N</li>
+				<li>O</li>
+				<li>P</li>
+				<li>Q</li>
+				<li>R</li>
+				<li>S</li>
+				<li>T</li>
+				<li>U</li>
+				<li>V</li>
+				<li>W</li>
+				<li>X</li>
+				<li>Y</li>
+				<li>Z</li>
+			</ol>
+		</div>
+		<div class="clear-both">
+			
+		</div>
+	</div>
+	<footer class="footer">
+		<!-- insert footer -->
+		<div class="copyright-footer">COPYRIGHT &copy;
+        2004-
+	        <script>
+	            document.write(new Date().getFullYear());
+	        </script> 
+	        <span>SAPIENT</span>
+    	</div>
+    	<div class="red-bar">
+    		
+    	</div>
+		
+	</footer>
+
+</div>
+<script id="table-contents" type="text/x-handlebars-template">
+		<div class="container-table" style="height:567px;overflow:auto;">
+		{{#each supervisee}}
+		<div class="table-search">
+			<div class="col-1 mcol-1">
+				<img src="{{image}}" alt="">
+			</div>
+			<div class="col-2 hide-id">{{oracle_id}}</div>
+			<div class="col-3 mcol-2"><span>{{name}}</span> <span class="unhide">{{oracle_id}}</span></div>
+			<div class="col-4 mcol-3">{{role}}</div>
+			<div class="col-5 mcol-4">
+				<img src="/dist/images/LandingPageImages/edit.png" class="editbtn">
+					<img src="/dist/images/LandingPageImages/delete.png" class="deletebtn">
+			</div>
+		</div>
+		{{/each}}
+	</div>
+</script>
+
+<script id="user-detail-template" type="text/x-handlebars-template">
+		
+		
+	<div class="user-picture">
+		<img id="user-pic" src="{{profile_photo}}">
+	</div>
+	<div class="user-details-block">
+		<div id="user-name">{{username}}</div>
+		<ul id="user-details">
+			<li>{{oracle_id}}</li>
+			<li>{{email_id}}</li>
+			<li>{{designation}}</li>
+			<li>{{address}}</li>
+	 			</ul>
+	</div>
+	</script>
+
+<script type="text/javascript" src="/dist/minified/scripts/global.js"></script>
+<script type="text/javascript" src="/dist/minified/scripts/components/handlebars-v4.0.5.js"></script>
+<script type="text/javascript" src="/dist/minified/scripts/components/landingPage.js"></script>
+<!-- <script type="text/javascript" src="../JS/src/supervisor.json"></script> -->
+<!-- <script type="text/javascript" src="/dist/minified/scripts/components/leftUserPanel.js"></script> -->
+<script type="text/javascript" src="/dist/minified/scripts/components/search.js"></script>
+
+
+</body>
+
+</html>
+
+/dist/images/LandingPageImages/nj.jpg

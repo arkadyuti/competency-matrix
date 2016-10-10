@@ -22,6 +22,14 @@ body{
 } 
 
 
+.main-wrapper {
+    .main-container{
+        padding-top: 10px;
+    }
+}
+.detail-supervisors-container{
+    padding: 0;
+}
 .cm-delete-small, .cm-edit-small, .cm-plus-small
 { display: inline-block; background: url('/dist/images/dashboard-img/sprite-image.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
  
@@ -53,6 +61,7 @@ body{
   		background-color:$zebra-light ;
   		height: 75px;
   		border-radius: 0 0 5px 5px;
+        padding-left: 10px;
   	}
 }
 
@@ -90,6 +99,7 @@ body{
     	list-style: none;
     	cursor: pointer;
     	font-family: FontAwesome;
+      font-weight:bold;
     	}
 
   		&.active:before{
@@ -98,6 +108,7 @@ body{
     	float: left;
     	color: $white-color;
     	padding-right: 18px;
+      font-weight:bold;
   		}
 	}
 
@@ -108,17 +119,21 @@ body{
 	.skill-level{
 		float: right;
   		font-size: 10px;
-  		padding: 3px 9px;
+  		padding: 3px;
+        width: 70px;
   		border-radius: 3px;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 1.1em;
 	}
-	.beginner{
+	.Beginner{
 		background-color: get-color(pool);
 
 	}
-	.mediocre{
+	.Mediocre{
 		background-color: get-color(olive);
 	}
-	.expert{
+	.Expert{
 		background-color: get-color(grass);
 	}
 	
@@ -140,13 +155,28 @@ body{
   			font-family: FontAwesome;
   			padding-right: 10px;
   			}
+
 		.star-container{
        		width: 78px;
     		height: 14px;
     		float: right;
-    		background-image: url('/dist/images/dashboard-img/star-all.png');
-    		background-position: -64px 0px;
+    		background-image: url('/dist/images/dashboard-img/star-all.png');		
 		}
+        .star-pos-1{
+            background-position: -64px 0px;
+        }
+        .star-pos-2{
+            background-position: -48px 0px;
+        }
+        .star-pos-3{
+            background-position: -32px 0px;
+        }
+        .star-pos-4{
+            background-position: -16px 0px;
+        }
+        .star-pos-5{
+            background-position: -0px 0px;
+        } 
 	}
 }
 
@@ -233,18 +263,30 @@ button:focus{
     margin: auto auto 20px 16px;
     color: $white-color;
 }
-.detail-supervisors-container-dashboard .desktop-back-btn{
-    font-family: 'SapientCentroSlab-Thin';
-    font-size: 16px;
-    margin: auto auto 30px 16px;
-    color:$white-color;
-}
-.desktop-back-btn div{
-    content: "\f104";
-    font-family: FontAwesome;
+
+.desktop-back-btn{
+    margin-bottom: 20px;
+    padding-left: 15px;
+    span:first-child:before {
+        content: "\f104";
+        font-family: FontAwesome;
+        color: $white-color;
+    }
+    span:last-child{
+        padding-left: 5px;
+        font-size: 16px;    
+        font-family: 'SapientCentroSlab-Thin'; 
+        color: $white-color;
+    }
 }
 .detail-supervisors-container-dashboard ,.mobile-view-btns{
     display: none;
+}
+.eventlistner-none{
+    pointer-events: none;
+}
+.star-opacity{
+    opacity: 0.5;
 }
 @media screen and (max-width: 768px){
     .skills-wrapper{
@@ -275,25 +317,30 @@ button:focus{
         font-family: 'SapientCentroSlab-Reg';
     }
     .mobile-view-btns .mobile-back-btn{
+        font-size:18px;
         border-style: solid;
         float: left;
         border-width: 2px;
-        border-color: rgb(102, 102, 102);
+        border-color: #666666;
         border-radius: 30px;
-        background-color: rgba(0, 0, 0, 0);
-        width: 132px;
-        height: 62px;
-        margin: 0 0 0 35px;
-        padding: 20px 0px 0px 40px;
+        background-color: transparent;
+        width: 90px;
+        height: 45px;
+        margin: 0 0 0 20px;
+        padding: 10px 0px 0px 25px;
 
     }
     .mobile-pri-skills{
         float: left;
         background-color: transparent;
-        width: 132px;
-        height: 62px;
-        margin: 0 0 0 35px;
-        padding: 20px 0px 0px 25px;
+        width: 80px;
+        height: 45px;
+        margin: 0 0 0 20px;
+        padding: 12px 0px 0px 6px;
+        font-size: 16px;
+        font-family: 'SapientCentroSlab-Reg';
+        font-weight:bold;
+
     }
     .skills-active{
         border-bottom: 5px solid $red-button;

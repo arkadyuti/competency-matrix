@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'SapientCentroSlab';
+  src: url("../font/SapientCentroSlab.eot") format("eot");
+  src: url("../font/SapientCentroSlab.ttf") format("ttf");
+  src: url("../font/SapientCentroSlab.woff") format("woff");
+  src: url("../font/SapientCentroSlab.woff2") format("woff2"); }
+
+@font-face {
+  font-family: 'SapientCentroSlab-Medium';
+  src: url("../font/SapientCentroSlab-Medium.eot") format("eot");
+  src: url("../font/SapientCentroSlab-Medium.otf") format("otf");
+  src: url("../font/SapientCentroSlab-Medium.ttf") format("ttf");
+  src: url("../font/SapientCentroSlab-Medium.woff") format("woff");
+  src: url("../font/SapientCentroSlab-Medium.woff2") format("woff2"); }
+
+@font-face {
+  font-family: 'SapientCentroSlab-Reg';
+  src: url("../font/SapientCentroSlab-Reg.otf") format("otf"); }
+
+@font-face {
+  font-family: 'SapientCentroSlab-Thin';
+  src: url("../font/SapientCentroSlab-Thin.eot") format("eot");
+  src: url("../font/SapientCentroSlab-Thin.otf") format("otf");
+  src: url("../font/SapientCentroSlab-Thin.ttf") format("ttf");
+  src: url("../font/SapientCentroSlab-Thin.woff") format("woff");
+  src: url("../font/SapientCentroSlab-Thin.woff2") format("woff2"); }
+
+@font-face {
+  font-family: 'Slabo27px-Regular';
+  src: url("../font/Slabo27px-Regular.eot") format("eot");
+  src: url("../font/Slabo27px-Regular.ttf") format("ttf"); }
+
+@font-face {
+  font-family: 'SapientCentroSlab-XThin';
+  src: url("../font/SapientCentroSlab-XThin.eot") format("eot");
+  src: url("../font/SapientCentroSlab-XThin.otf") format("otf");
+  src: url("../font/SapientCentroSlab-XThin.ttf") format("ttf");
+  src: url("../font/SapientCentroSlab-XThin.woff") format("woff");
+  src: url("../font/SapientCentroSlab-XThin.woff2") format("woff2"); }
+
+/* COLORS */
+/* COLORS */

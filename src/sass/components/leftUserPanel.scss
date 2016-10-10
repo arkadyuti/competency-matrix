@@ -1,0 +1,93 @@
+@import "_global-sass.scss";
+
+$information-tablet: "(max-width : 767px)";
+$information-mobile: "(max-width : 480px)";
+$table-contents-width: 100%;
+$table-contents-height: 70px;
+$user-detail-color:get-color(Rose); 
+$user-detail-text-color:get-color(White);
+$panel-height:271px;
+
+.left-user-panel{
+	width:100%;
+    height:480px;   
+    .user-picture{
+		width:100% ;
+		height:271px ;
+		background-color:grey;
+		border-radius:10px 10px 0 0; 
+		.user-pic{
+		    width:100%;
+		    height:270px;
+		    border-radius:10px 10px 0 0;
+		    object-fit: cover;
+		}
+	}
+	.user-details-block{
+        width:100% ;
+        height:213px ;
+       	background-color:$user-detail-color;
+        border-radius:0 0 10px 10px;      
+        color:white;
+        padding:15px 15px 15px 15px;
+        @include font-family(font1);
+        .user-name{
+            font-size:18px;
+            line-height: 1;
+		}
+		.left-user-details{
+            list-style-type:none;
+            font-size:16px;
+            line-height:2;
+            padding-left: 0;
+            li{
+            	margin-bottom: -8px;
+            	line-height:1;
+                font-size:15px;
+            	padding-top:15px;
+            	word-wrap: break-word;
+            }
+		}
+	}
+}
+
+@media #{$information-tablet}{
+	.left-user-panel{
+       width:100%;
+        height:$panel-height;
+       .user-picture{
+            width:44.1%;
+            float:left;
+            height:$panel-height;
+            overflow: hidden;
+            border-radius: 0px;
+            .user-pic{
+            	border-radius:0;
+            	transform: scale(1.5);
+                max-width:100%;
+           
+            }
+		}
+		.user-details-block{
+            width:55.9%;
+            padding: 30px 20px 0 20px;
+            float:right;
+            height:$panel-height;
+            border-radius:0;
+            line-height: 2;
+            .user-name{
+            	font-size:28px;
+			}
+		}
+	}
+}
+
+@media #{$information-mobile}{
+	.left-user-panel{
+		.user-details-block{
+			.user-name{
+            	font-size:16px;
+			}
+		}
+    }
+}

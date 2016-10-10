@@ -85,7 +85,7 @@ body {
       font-size: 75px;
       margin-top: 34px;
       /* max-width: 53%; */
-      color: #fff;
+      color: #ffffff;
       font-family: 'SapientCentroSlab-XThin'; }
   .loginpage-content .login-section {
     display: inline-block;
@@ -118,7 +118,7 @@ body {
         margin-bottom: 30.225px;
         border-width: 0 0 1px 0;
         border-bottom-color: #424242;
-        color: #fff;
+        color: #ffffff;
         font-family: 'SapientCentroSlab-Thin';
         outline: none; }
       .loginpage-content .login-section .login-form .login-password {
@@ -134,7 +134,7 @@ body {
         /* Total =  40.3px; */
         border-width: 0 0 1px 0;
         border-bottom-color: #424242;
-        color: #fff;
+        color: #ffffff;
         font-family: 'SapientCentroSlab-Thin';
         outline: none; }
       .loginpage-content .login-section .login-form .login-btn {
@@ -155,7 +155,7 @@ body {
       .loginpage-content .login-section .login-form .form-footer {
         width: 100%; }
         .loginpage-content .login-section .login-form .form-footer .rememberme-label {
-          color: #fff;
+          color: #ffffff;
           display: inline-block;
           cursor: pointer;
           font-family: 'SapientCentroSlab-Thin'; }
@@ -163,7 +163,7 @@ body {
           display: none; }
         .loginpage-content .login-section .login-form .form-footer .custom-checkbox {
           display: inline-block;
-          background: #fff;
+          background: #ffffff;
           width: 13px;
           height: 13px;
           color: white;
@@ -175,7 +175,7 @@ body {
           background-size: cover;
           cursor: pointer; }
         .loginpage-content .login-section .login-form .form-footer .forgot-password-link {
-          color: #fff;
+          color: #ffffff;
           word-wrap: normal;
           float: right; }
 

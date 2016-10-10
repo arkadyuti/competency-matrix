@@ -3,10 +3,10 @@
 @mixin font-family($font) {
 	font-family: unquote(map-get($cm-fonts, $font));
 }
-
 @function get-color($color){
 	@return unquote(map-get($cm-colors, $color));
 }
+
 
 @function psd-to-browser-width-percent($target) {
   @return ($target / $psd-width) * 100%;
